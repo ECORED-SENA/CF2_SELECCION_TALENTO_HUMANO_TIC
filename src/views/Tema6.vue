@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #fff") 6
       h1 Consolidación de propuesta de mejora
@@ -16,14 +16,14 @@
           .col
             p.mb-0 Una vez el cliente expresa su nivel de satisfacción, la organización procede a tomar los resultados para exponerlos con las áreas encargadas o estratégicas de la empresa para generar ideas que se consolidan y se convierten en propuestas de mejora continua que generan un crecimiento en la empresa ya que impactan en el cumplimiento de los requisitos exigidos por el cliente, generando la fidelización del consumidor y aumento de los mismos.
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema6/img2.svg', style="width: 650px").m-auto
     #t_6_1.pt-5
     .titulo-segundo.color-acento-contenido
       h2 6.1 Identificación de hallazgos positivos y negativos
     .row.align-items-center.mb-5
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema6/img1.png', style="width: 650px").m-auto
       .col-lg-7
         p.mb-4 Para generar propuestas de mejora, es importante identificar la situación actual de lo que queremos mejorar es decir se debe hacer uso de la información recibida por los clientes revisando punto por punto e identificando cuales son positivos y negativos, por ejemplo:
@@ -45,10 +45,10 @@
             .p-3
               p.mb-0 Para comprender un poco mejor lo anteriormente mencionado se tomará el ejemplo anterior y se crearán acciones correctivas y mejoras al proceso.
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema6/img2.png', style="width: 650px").m-auto
     p.text-center.mb-5 #[span.txt-deco1 Ejemplo: Satisfacción de 50 clientes en la puntualidad de la entrega = pésimo]
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-5
         figure
           img(src='@/assets/curso/tema6/img3.png', style="width: 650px").m-auto
@@ -57,7 +57,7 @@
           img(src='@/assets/curso/tema6/img4.png', style="width: 650px").m-auto
     .row.align-items-center.mb-5
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema6/img5.png', style="width: 650px").m-auto
       .col-lg-7
         p.mb-4.txt-deco1 Atención de los funcionarios que hicieron la entrega a los 50 clientes = Excelente
@@ -91,11 +91,11 @@
         p.mb-2 A nivel económico va incrementar sus ventas ya que un cliente satisfecho es un consumidor feliz el cual regresa y adicional por medio del voz a voz atrae más clientes, es decir recomienda la empresa. Generando ahorro en mercadeo y publicidad.
         p.mb-0 Socialmente, gracias a las buenas relaciones con los clientes se genera un vínculo que da como resultado reconocimiento en el mercado que atraerá nuevos clientes junto a sus políticas ambientales.
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema6/img6.png', style="width: 650px").m-auto
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema6/img7.png', style="width: 650px").m-auto
       .col-lg-7
         p.mb-3 Ambientalmente, gracias a las estrategias que nacen de la misma información del mercado y los clientes se crean planes para que los consumidores se sientan identificados a comprar por ejemplo programas de reciclaje, cuidado del agua, planeta y demás, lo que incita a comprar y mejorar la calidad de vida del entorno en el cual está la empresa ya que los clientes sienten que la organización va invertir en el bienestar de la comunidad.
@@ -109,7 +109,7 @@
               img(src='@/assets/curso/tema6/img5.svg', style="width: 60px")
           .col
             p.mb-0 Para concluir, uniendo los puntos anteriores se insiste sobre los planes de mejora, los canales de comunicación, conocimientos que los aprendices, empresarios y demás partes interesadas de las organizaciones implementen en cada una, va generar como resultado la sostenibilidad de la empresa, es decir maximiza la probabilidad de permanecer en el mercado ya que va a estar actualizada sobre las demandas de sus consumidores.
-    .row.align-items-center
+    .row.align-items-center(data-aos="fade-right")
       .col-2
         figure.img-position4
           img(src='@/assets/curso/tema6/img6.svg', style="width: 120px")

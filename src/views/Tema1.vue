@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #fff") 1
       h1 Manejo de la comunicación e información
@@ -14,7 +14,7 @@
       .col-lg-7
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-up-left")
               img(src='@/assets/curso/tema1/img1.svg', style="width: 250px").m-auto
           .col-lg-7
             figure.d-none.d-lg-block.mb-3
@@ -31,7 +31,7 @@
         p.mb-0 Este tipo expresión comprende el mensaje entre las personas usando el habla, teniendo en cuenta el manejo de emociones, uso adecuado de las palabras y escuchando, obteniendo así buenas relaciones con las personas de su entorno.
       .col-12
         p La oratoria o comunicación oral es la que se verbaliza a través de la palabra, sin embargo, eso no quiere decir que solo las palabras importan, tal como ilustra el autor norteamericano Bert Decker en su obra #[span.txt-deco1 “El Arte de la comunicación. Cómo lograr un impacto interpersonal”] para lo cual se requiere del manejo de nueve habilidades así:
-    figure.mb-5
+    figure.mb-5(data-aos="fade-up-left")
       img(src='@/assets/curso/tema1/img3.svg', style="width: 900px").m-auto
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
@@ -43,7 +43,7 @@
         p En las organizaciones se ve este tipo de comunicación con el cliente en los modelos tradicionales en venta directa como tiendas físicas, centros de información y demás.
         p Nota: en este tipo de comunicación con el cliente se debe tener en cuenta el equilibrio entre cada palabra, es decir, #[span.txt-deco1 sin agresividad – no agredir, ni pasividad – evitar, para tener una conversación eficiente].
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img4.svg', style="width: 450px")
     .separador
     .row.bg-color2.mb-5
@@ -55,7 +55,7 @@
           .col-lg-5.mb-4.mb-lg-0
             p Todas las personas pueden expresar de forma verbal, con frases ideales para toda ocasión sus ideas, pero cabe resaltar que esto va acompañado de los gestos o expresiones corporales que pueden reforzar su comunicado o emitir otro mensaje.Diversos autores y especialistas de la comunicación utilizan la fórmula 55/38/7, dados los resultados hallados después de sendas investigaciones acerca del peso que tienen los gestos, posturas y movimientos en la comunicación interpersonal.
           .col-lg-7
-            figure
+            figure(data-aos="fade-up")
               img(src='@/assets/curso/tema1/img5.svg', style="width: 650px").m-auto
           .row.mt-4
             .col-auto
@@ -86,7 +86,7 @@
                 h2.text-center Paralingüística
                 p.text-center.mb-4 Comprende esos aspectos que acompañan las palabras como tono, volumen, timbre, ritmo (o fluidez) y silencios (en ocasiones necesarios, en otras incómodos).
           .col-lg-5
-            figure
+            figure(data-aos="fade-up-left")
               img(src='@/assets/curso/tema1/img1.png', style="width: 450px").m-auto
     .separador
     #t_1_3.pt-5
@@ -100,11 +100,11 @@
           p.mb-4 Mirando la historia donde el mensaje es el objeto central entre emisor y receptor, antes de la aparición de la escritura (aproximadamente 3.200 a.C.), el ser humano solo se comunicaba a partir de mensajes simples expresados a través del habla, pero las distancias de las personas hicieron evidente la necesidad de plasmar la palabra y dotarla de un carácter permanente en un soporte físico, que al día hoy se convirtió más en soporte digital.
           span.d-flex.justify-content-end.pe-5 (Machado Mateos, 2020)
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up")
           img(src='@/assets/curso/tema1/img2.png', style="width: 450px").m-auto
       .col-12.mt-4
         p.text-center.mb-5 Tenga presente que en toda forma de comunicación siguen siendo protagonistas los elementos de la comunicación:
-        figure.mb-4
+        figure.mb-4(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img11.svg', style="width: 750px").m-auto
     p.mb-5 En la comunicación escrita se hace más difícil expresar una idea, como también se hace más lento el proceso de realimentación o respuesta. Relacionemos sus ventajas y desventajas:
     .row.mb-5.bg-color3
@@ -221,11 +221,11 @@
                     figure.mt-4
                       img(src='@/assets/curso/tema1/img16.svg', style="width: 150px").m-auto
           .col-lg-5
-            figure
+            figure(data-aos="fade-up-left")
               img(src='@/assets/curso/tema1/img3.png', style="width: 450px").m-auto
         .row.align-items-center
           .col-lg-5
-            figure
+            figure(data-aos="fade-up-right")
               img(src='@/assets/curso/tema1/img4.png', style="width: 450px").m-auto
           .col-lg-7
             p Ahora, los servicios de los sistemas telefónicos actuales son:
@@ -355,12 +355,12 @@
             h4 Interpersonales
             p Relacionadas con el asunto a tratar y la personalidad de los intervinientes como:  suposición, diferente percepción, prejuicios, antipatía.
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img10.png', style="width: 450px").m-auto
     p.mb-5 Así como existen barreras también existen recomendaciones sobre cómo gestionar de la mejor forma las interacciones comunicacionales en todos los ambientes. A continuación, algunas sugerencias:
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img11.png', style="width: 450px").m-auto
       .col-lg-7
         .tarjeta.tarjeta--azul.p-4
@@ -449,7 +449,7 @@
                 td Un candidato recibe convocatoria para una entrevista.
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema1/img23.svg', style="width: 450px").m-auto
       .col-lg-7
         p En medio de todo lo que circunda, la comunicación organizacional es fundamental que se establezca desde la dirección estratégica y luego se comunique a todos los colaboradores. ¿Cuál será el conducto regular de comunicación? Es decir, ¿cuál es la ruta que debe seguirse para escalar la información en cada uno de los equipos de trabajo y por lo tanto en los procesos y procedimientos de la organización?
@@ -468,12 +468,12 @@
           .col
             p.mb-0 Como en todo proceso existen elementos de entrada, en el caso de la información, será la llamada, el correo o el documento, si se trata de un documento que debe pasar a proceso de #[span.txt-deco1 radicación], que regularmente se da en una oficina de recepción o control de documentos, donde se coloca una señal o sello de recibido acompañado de la fecha, hora y persona que lo recibe. Luego se pasa a la oficina o área que corresponde según el asunto.
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img12.png', style="width: 450px").m-auto
     p.mb-5 Una vez se atiende la solicitud o se tramita lo relacionado y según el valor, la vigencia e importancia del documento para la organización, debe pasarse para el archivo; generalmente se tiene un procedimiento e instructivo para esta labor, pero en caso que no exista, es importante seguir estas reglas:
     .row.align-items-center
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema1/img13.png', style="width: 450px").m-auto
       .col-lg-7
         LineaTiempoD.color-secundario
@@ -488,7 +488,7 @@
         p Cuando el documento ya hace parte de un archivo, puede ser requerido para #[span-txt-deco1 consulta], en ese caso el mismo procedimiento interno debe especificar en qué casos y qué personas pueden tener acceso a dicha información, para evitar pérdidas de información y que el colaborador incurra en faltas a la confidencialidad y seguridad de la información.
         p #[span.txt-deco1 De la confidencialidad de la información:] los documentos pueden contener datos personales, tratar asuntos financieros, de investigación disciplinaria, policial o penal, por lo tanto, los responsables de la manipulación y archivo de los documentos deben mantener esa información como secreto profesional, para lo cual en Colombia se cuenta con la Ley 1582 del 2012 de protección de datos. 
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img25.svg', style="width: 450px").m-auto
     .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5 
       .row.m-0.align-items-center.justify-content-between
@@ -508,7 +508,7 @@
         p.mb-0 Para la salvaguarda y seguridad de la información, las organizaciones cuentan con la Norma ISO 27001 referente mundial para implementar el Sistema de Gestión de Seguridad de la Información, con la cual se genera confianza tanto con el personal interno como con todas las partes interesadas del sector externo. Esta normativa permite que los datos suministrados sean confidenciales, íntegros, disponibles y legales, con el fin de estar protegidos frente a los riesgos que se puedan presentar. Veamos los beneficios de su implementación:
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema1/img14.png', style="width: 450px").m-auto
       .col-lg-8
         p.mb-4 #[b Beneficios del ISO 27001]
@@ -559,7 +559,7 @@
       h2 1.9 Etiqueta y netiqueta
     p.mb-5 En los diferentes canales de comunicación con el cliente se deben seguir una serie de normas básicas de comportamiento tanto en el entorno presencial como en el uso virtual, para garantizar que la relación con el cliente perdure. Para esto a continuación, se presentan los siguientes protocolos:
     .row.justify-content-center.mb-5
-      .col-12.col-lg-5.mb-4.mb-xl-0
+      .col-12.col-lg-6.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -568,7 +568,7 @@
               p.text-white Nos habla del cómo debemos comportarnos frente a diferentes momentos o situaciones en reuniones, actos ceremoniales, empresas, actividades culturales y se puede asociar para todo lo que hacemos como al cenar en casa y lugares públicos, el vestir según la ocasión, el tono de voz según el ambiente.
               p.text-white.mb-5 Resumiendo, está en todas las actividades que hacemos a diario y está en nuestra formación del ser, saber hacer y saber estar, por ende, la importancia de conocerla.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img15.png')})`}")
-      .col-12.col-lg-5.mb-4.mb-xl-0
+      .col-12.col-lg-6.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor

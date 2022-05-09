@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #fff") 3
       h1 Uso de sistemas de información y de relacionamiento con los clientes
@@ -15,13 +15,13 @@
       .col-lg-7
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-up")
               img(src='@/assets/curso/tema3/img1.svg', style="width: 250px").m-auto
           .col-lg-7
             p Lo anterior obliga a los empresarios y negociadores a subirse al bus del uso de las TIC para publicitar, promover, atender con suma rapidez y diligencia a los clientes, realizar transacciones, hacer seguimiento de las operaciones comerciales, resolver las posibles contingencias y medir la satisfacción de los clientes a través de sistemas de información y relacionamiento con los clientes.
     .row.bg-color10
       .col-12.p-5
-        .row.align-items-center
+        .row.align-items-center(data-aos="fade-up-left")
           .col-lg-6
             figure
               img(src='@/assets/curso/tema3/img1.png', style="width: 600px")
@@ -42,7 +42,7 @@
           .col-lg-8
             .titulo-sexto.color-acento-botones
               p.mb-0 #[b Figura 3]. Propósitos del CRM
-            figure.mb-5
+            figure.mb-5(data-aos="fade-up-right")
               img(src='@/assets/curso/tema3/img2.svg', style="width: 800px").m-auto
     .separador
     #t_3_2.pt-5
@@ -58,7 +58,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 4].  Áreas de integración del ERP
-        figure.mb-5
+        figure.mb-5(data-aos="fade-up-right")
           img(src='@/assets/curso/tema3/img4.svg', style="width: 800px").m-auto
     .separador
     #t_3_3.pt-5
@@ -82,7 +82,7 @@
             |
             p Sistema de código abierto: es decir, puede ser modificable según las necesidades del cliente.
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema3/img2.png', style="width: 600px")
     p.mb-5 La configuración de los SAP se hace atendiendo las características de la empresa o negocio, sin embargo, los módulos que más comúnmente se utilizan son los siguientes:
     .row.justify-content-center.mb-5
@@ -113,7 +113,7 @@
     p.mb-4 Día a día siguen apareciendo más aplicaciones y canales ágiles de comunicación con los clientes, entre ellos tenemos:
     .row
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema3/img3.png', style="width: 600px")
       .col-lg-7
         LineaTiempoD.color-secundario.mb-4

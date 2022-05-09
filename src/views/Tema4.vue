@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #fff") 4
       h1 Peticiones Quejas Reclamos Sugerencias y Felicitaciones
@@ -16,7 +16,7 @@
           .col
             p.mb-0 Las PQRSF son sin duda una herramienta de mejora, porque ayuda a la organización a retroalimentarse en la calidad y gestión del servicio que le está brindando al cliente, debido a que es un canal directo que tiene con el consumidor que expresa por medio de este mecanismo sus peticiones, quejas, reclamos, sugerencias y felicitaciones, según corresponda con su experiencia con el producto o servicio adquirido.
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema4/img1.png', style="width: 450px").m-auto
     p.mb-5.txt-deco1.text-center Conozcamos cada una de ellas:
     .tarjeta.tarjeta--azul.p-5.mb-5
@@ -58,7 +58,7 @@
       h2 4.1 Normativa
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema4/img6.png', style="width: 650px").m-auto
       .col-lg-7.mb-4.mb-lg-0
         p Cabe resaltar que las peticiones, quejas, reclamos, sugerencias, están reguladas por la ley tal y como podríamos ver desde la Constitución Política de 1991, en donde se evidencian las peticiones en su artículo 23 citando lo siguiente: “Toda persona tiene derecho a presentar peticiones respetuosas a las autoridades por motivos de interés general o particular y a obtener pronta resolución. El legislador podrá reglamentar su ejercicio ante organizaciones privadas para garantizar los derechos fundamentales”.
@@ -74,7 +74,7 @@
             p Por otro lado, también se cuenta con la norma ISO 10002, en donde la gestión de calidad está enfocada en la satisfacción del cliente por medio de directrices para el tratamiento de las quejas en las organizaciones.
             p.mb-0 En esta norma se pueden encontrar los pasos para crear el diseño de un sistema para el tratamiento efectivo de las PQRS lo cual crea un impacto positivo con las relaciones con el cliente.
       .col-lg-4
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema4/img7.png', style="width: 650px").m-auto
     .separador
     .row.bg-color13.mb-5
@@ -90,7 +90,7 @@
                   img(src='@/assets/curso/tema4/img2.svg', style="width: 70px")
               .col
                 p A continuación, se comparte un formato guía para que los clientes internos, externos y partes interesadas puedan presentar sus peticiones, quejas, reclamos, sugerencias y felicitaciones.
-                a.anexo(:href="obtenerLink('/downloads/Anexo6.pdf')" target="_blank")
+                a.anexo(:href="obtenerLink('/downloads/Anexo6.pdf')" target="_blank").mb-3
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -100,7 +100,7 @@
                   .p-4
                     p.mb-0 Se debe tener en cuenta que estas peticiones, quejas, sugerencias, reclamos y felicitaciones se pueden hacer de forma física, por apoderado, verbal o digital, se debe generar un recibido ya sea por medio de un radicado o consecutivo para un adecuado seguimiento, como también se debe dar una respuesta oportuna.
           .col-lg-5
-            figure
+            figure(data-aos="fade-up-left")
               img(src='@/assets/curso/tema4/img8.png', style="width: 450px").m-auto
         .separador
         #t_4_3.pt-5
@@ -108,13 +108,13 @@
           h2 4.3 Instructivo de manejo y seguimiento
         .row.align-items-center.mb-5
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-up-right")
               img(src='@/assets/curso/tema4/img9.png', style="width: 450px").m-auto
           .col-lg-7
             p Una vez la parte interesada formaliza la petición, queja, reclamo, sugerencia o felicitación, la empresa o entidad está en la obligación de darle respuesta. Para esto, una vez recibe, ya sea de forma física, verbal, por apoderado o digital, empieza el proceso de seguimiento, para lo cual se presenta más adelante el formato como apoyo al aprendizaje.
             p Se debe tener en cuenta que la ley 1755 de 2015 en su artículo 14 expresa lo siguiente para el plazo que se tiene para dar respuesta a una PQRS.
             p #[span.txt-deco1 Artículo 14.] Términos para resolver las distintas modalidades de peticiones. Salvo norma legal especial y so pena de sanción disciplinaria, toda petición deberá resolverse dentro de los quince (15) días siguientes a su recepción. Estará sometida a término especial la resolución de las siguientes peticiones:
-        .row.align-items-center.mb-5
+        .row.align-items-center.mb-5(data-aos="fade-up-left")
           .col-lg-5.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema4/img4.svg', style="width: 450px").m-auto
@@ -179,7 +179,7 @@
                 .col
                   p.mb-0 #[span.txt-deco1 Quinto:] capacitar al personal para la recepción de PQRSF ya que de su gestión dependerá el éxito de brindar una solución a la razón de ser de la organización.
       .col-lg-6
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema4/img10.png', style="width: 650px")
     p.mb-5 Una vez se cuenta con esta base mínima, se procede a crear un área de recepción y seguimiento que en ocasiones se delega, acorde al tamaño de la organización, para que se manejen los siguientes puntos:
     .row.align-items-center.mb-4
@@ -243,11 +243,11 @@
                   .col
                     p.mb-0 #[b 7mo. acuerdo]:  cierre del proceso.
       .col-lg-4
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema4/img11.png', style="width: 450px").m-auto
     .row
       .col-lg-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema4/img12.png', style="width: 450px").m-auto
       .col-lg-8
         .row.mb-3

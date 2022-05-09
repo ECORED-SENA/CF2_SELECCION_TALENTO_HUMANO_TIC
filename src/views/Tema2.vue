@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #fff") 2
       h1 Habilidades sociales y relacionales
@@ -19,11 +19,11 @@
                 p En todos los ámbitos de la vida, el ser humano es prioritariamente un ser social, necesita de otros para entender, sobrevivir y crecer, y en las organizaciones mucho más, las habilidades de interacción son fundamentales para la gestión de las comunicaciones, de las actividades y del mismo desarrollo de las personas, e ahí la imperante necesidad de identificar y potenciar las competencias centradas en el #[span.txt-deco1 “saber ser”].
             p Las competencias son entendidas como el conjunto de conocimientos, habilidades, cualidades, aptitudes, que tienen las personas y que les predispone a realizar unas actividades con buen nivel de desempeño (Jiménez, 2013); definición que hace énfasis en que las competencias están presentes en las personas, no es algo que se pueda coger y soltar en las organizaciones, sino que son propias de los individuos. Jiménez habla de tres tipos de modelos de competencias: 
           .col-lg-5
-            figure
+            figure(data-aos="fade-up-left")
               img(src='@/assets/curso/tema2/img1.png', style="width: 450px").m-auto
         .row.align-items-center.mb-4
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-up-right")
               img(src='@/assets/curso/tema2/img3.svg', style="width: 450px").m-auto
           .col-lg-7
             ul.lista-ul
@@ -45,14 +45,22 @@
               img(src='@/assets/curso/tema2/img4.svg', style="width: 50px")
           .col
             p Otro concepto de competencias, dice que #[span.txt-deco3 son características subyacentes de la persona, que están relacionas con una actuación en su puesto de trabajo y que pueden basarse en la motivación, en los rasgos de carácter, en el concepto de sí mismo, en actitudes o valores, en una variedad de conocimientos, capacidades cognitivas o de conducta (Ramos, 2012). En este modelo] de gestión por competencias, Ramos define dos tipos de competencias: esenciales y diferenciadoras.
-        figure.mb-5
-          img(src='@/assets/curso/tema2/img5.svg', style="width: 1100px").m-auto
+        .row.align-items-center.mb-5(data-aos="fade-up-left")
+            .col-lg-5.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/tema2/img30.svg', style="width: 450px").m-auto
+            .col-lg-2.mb-4.mb-lg-0
+              figure.img-position3
+                img(src='@/assets/curso/tema2/img5.svg', style="width: 80px").m-auto
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema2/img31.svg', style="width: 450px").m-auto
         p.mb-5 En el siguiente gráfico se interpreta la teoría de la gestión por competencias de la Psicóloga Paola Ramos.
         .row.justify-content-center
           .col-lg-10
             .titulo-sexto.color-acento-botones
               p.mb-0 #[b Figura 1]. Teoría de la gestión por competencias
-            figure.mb-5
+            figure.mb-5(data-aos="fade-up-right")
               img(src='@/assets/curso/tema2/img6.svg', style="width: 1100px").m-auto
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
@@ -67,12 +75,12 @@
             .p-4
               p.mb-0 En este punto del aprendizaje, se invita al aprendiz a realizar ejercicios de introspección adoptando el arte de la Mayéutica, a través del cual el cliente encuentra su verdad o la verdad (dependiendo de la visión del mundo del cliente), con una función práctica para su vida.
       .col-lg-6
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema2/img2.png', style="width: 550px").m-auto
     p.mb-5.text-center Las habilidades sociales constan de tres componentes: cognitivo, conductual y fisiológico, veamos en qué consisten:
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema2/img3.png', style="width: 450px").m-auto
       .col-lg-7
         .tarjeta.tarjeta--azul.p-4
@@ -116,12 +124,12 @@
           p.mb-4 La empatía como popularmente se reconoce, es el ponerse en los zapatos de otro (identificar los pensamientos, sentimientos y sensaciones del otro) y saber cómo andar con ellos (asumir la situación existencial de otro, comprender su estado emocional), llevan al mismo punto a comprender la situación del otro y descubrir las circunstancias que lo hacen actuar así.
           span.d-flex.justify-content-end.pe-5 (Borrego Polo, 2016).
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema2/img4.png', style="width: 550px").m-auto
     .row.bg-color7.mb-5
       .col-12.p-5
         h4.txt-deco1.text-center.mb-5 Fases de la empatía
-        .row
+        .row(data-aos="fade-up")
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img5.png', style="width: 550px").m-auto
@@ -161,15 +169,15 @@
           p.mb-4 El equipo de trabajo además de compartir información y juntar contribuciones individuales (que es lo que hace un grupo de trabajo), genera sinergia positiva a través de la coordinación de sus esfuerzos, dando como resultado un nivel de rendimiento superior.
           span.d-flex.justify-content-end.pe-5 Según Robbins (2009)
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema2/img12.svg', style="width: 450px")
     p.mb-5.text-center ¿Cuál es la diferencia entre grupos de trabajo y equipos de trabajo?
-    figure.mb-5
+    figure.mb-5(data-aos="fade-up")
       img(src='@/assets/curso/tema2/img13.svg', style="width: 650px").m-auto
     p.mb-5.text-center Siguiendo a los mismos autores Robbins y Judge, se identifican cuatro clases de equipos de trabajo:
     .row.mb-5.align-items-center
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema2/img10.png', style="width: 650px")
       .col-lg-7
         .row.bg-color7.rounded.mb-4
@@ -262,14 +270,14 @@
             .p-2
               p.mb-0 Nota: adaptado de Robbins (2009).
       .col-lg-5
-        figure
+        figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema2/img11.png', style="width: 650px")
     p.mb-5 Ahora, es necesario adquirir conciencia de pleno involucramiento en los equipos de trabajo colaborativo, es decir, adquirir la habilidad de cooperación que está constituida por otras habilidades y destrezas que se van adquiriendo a lo largo del tiempo y experiencias, sin embargo, las esenciales son:
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 2]. Habilidades y destrezas esenciales
-        figure.mb-5
+        figure.mb-5(data-aos="fade-up-right")
           img(src='@/assets/curso/tema2/img22.svg', style="width: 1000px").m-auto
     .row.bg-color9.mb-5
       .col-12.p-5
@@ -280,7 +288,7 @@
       h2 2.3 Negociación
     .row.align-items-center
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema2/img17.png', style="width: 550px")
       .col-lg-7
         p Es el proceso mediante el cual se intercambia información, es decir, se ponen sobre la mesa las ideas, intereses y divergencias entre dos o más partes interesadas, con el fin de llegar a acuerdos que satisfagan en lo posible al mayor número de los involucrados.
@@ -346,7 +354,7 @@
       h2 2.4 Solución de conflictos
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema2/img18.png', style="width: 550px")
       .col-lg-7
         ul.lista-ul
@@ -406,7 +414,7 @@
                     td Es una oportunidad.
                     td Es un problema.
         p.mb-5 Para lograr la solución de conflictos es preciso generar un proceso centrado en la conversación y expresión respetuosa y sincera de sentimientos, ideas, intereses, conveniencias para el colectivo o las partes interesadas. Ese proceso consta de los siguientes pasos:
-        figure.mb-5
+        figure.mb-5(data-aos="fade-up-left")
           img(src='@/assets/curso/tema2/img19.png', style="width: 1000px").m-auto
         p.mb-5 Las creencias, la cultura y las circunstancias que rodean la experiencia de vida de cada uno, va enrutando su forma de actuar y de tomar decisiones, esta es la premisa de la cual parte el autor Mexicano Miguel Ángel Ruíz, en su obra “Los cuatro acuerdos” que luego complementa con “El quinto acuerdo”, que se podría sintetizar así:
         .row.align-items-center

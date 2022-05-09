@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #fff") 5
       h1 Técnicas de evaluación y satisfacción de los clientes
@@ -13,7 +13,7 @@
           img(src='@/assets/curso/tema5/img1.svg', style="width: 60px")
         p Anteriormente no se le daba la importancia que se merecía al comprador de los productos y servicios en las organizaciones, pese a que era el que mantenía el músculo financiero de las mismas, esto por diferentes razones como la poca oferta y mucha demanda, monopolios y demás.
       .col-lg-7.p-4.bg-color1
-        .row.align-items-center
+        .row.align-items-center(data-aos="fade-up-left")
           .col-lg-5
             figure
               img(src='@/assets/curso/tema5/img2.svg', style="width: 450px")
@@ -21,7 +21,7 @@
             p.mb-0 Con el pasar de los años y con la globalización, el cliente comenzó a tomar la importancia hasta llegar a ser visto como lo que es, la razón de ser de las empresas y todas las unidades de negocios existentes.
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema5/img1.png', style="width: 450px").m-auto
       .col-lg-7
         p.mb-3 Gracias a esto las organizaciones han venido implementando diferentes estrategias para conocer qué quieren los consumidores, cómo lo quieren, el tiempo, lo que esperan frente al producto, servicio y la atención, como se observaba anteriormente con herramientas CRM y demás.
@@ -36,7 +36,7 @@
       h2 5.1 Concepto, formas, métodos e instrumentos
     .row.align-items-center.mb-4
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema5/img3.svg', style="width: 450px")
       .col-lg-7
         p Las técnicas de evaluación de servicio al cliente son herramientas que utilizan las organizaciones para medir el nivel o grado de satisfacción que siente el consumidor al recibir atención, un producto o servicio de la empresa y así retroalimentarse para mejorar la calidad en esos aspectos.
@@ -81,7 +81,7 @@
           h2 5.2 Presentación de resultados
         .row.align-items-center.mb-5
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-up-right")
               img(src='@/assets/curso/tema5/img4.svg', style="width: 650px").m-auto
           .col-lg-7
             p.mb-0 Con la información que se recolecta de las diferentes formas, métodos e instrumentos, desde la dependencia encargada de servicio al cliente se mide el cumplimiento de los lineamientos de calidad en el servicio según cada organización en sus indicadores de gestión con el propósito de identificar las oportunidades de mejora que salen de la misma identificación de los consumidores. Estos informes son presentados a la alta gerencia o dependencia según cada empresa lo tenga diseñado en sus procedimientos y como mínimo debe contener el compilado de resultados obtenidos enfocados en el nivel de cumplimiento en satisfacción del cliente, la calidad del servicio, producto y atención, estrategias de fidelización, propuesta de mejora para crecimiento en ventas.
@@ -90,7 +90,7 @@
           .col-lg-9
             .titulo-sexto.color-acento-botones.mb-5
               p.mb-0 #[b Figura 5]. Elementos claves informe de resultados
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema5/img6.png', style="width: 800px").m-auto
 
 </template>
