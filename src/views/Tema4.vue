@@ -10,7 +10,7 @@
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
         .row.align-items-start
-          .col-auto
+          .col-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema4/img1.svg', style="width: 60px")
           .col
@@ -85,7 +85,7 @@
         .row.align-items-center.mb-5
           .col-lg-7.mb-4.mb-lg-0
             .row.align-items-start
-              .col-auto
+              .col-auto.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema4/img2.svg', style="width: 70px")
               .col
@@ -114,18 +114,20 @@
             p Una vez la parte interesada formaliza la petición, queja, reclamo, sugerencia o felicitación, la empresa o entidad está en la obligación de darle respuesta. Para esto, una vez recibe, ya sea de forma física, verbal, por apoderado o digital, empieza el proceso de seguimiento, para lo cual se presenta más adelante el formato como apoyo al aprendizaje.
             p Se debe tener en cuenta que la ley 1755 de 2015 en su artículo 14 expresa lo siguiente para el plazo que se tiene para dar respuesta a una PQRS.
             p #[span.txt-deco1 Artículo 14.] Términos para resolver las distintas modalidades de peticiones. Salvo norma legal especial y so pena de sanción disciplinaria, toda petición deberá resolverse dentro de los quince (15) días siguientes a su recepción. Estará sometida a término especial la resolución de las siguientes peticiones:
-        .row.align-items-center.mb-5(data-aos="fade-up-left")
-          .col-lg-5.mb-4.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema4/img4.svg', style="width: 450px").m-auto
-          .col-lg-2.mb-4.mb-lg-0
-            figure.img-position3
-              img(src='@/assets/curso/tema4/img5.svg', style="width: 80px").m-auto
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema4/img6.svg', style="width: 450px").m-auto
+        .row.justify-content-center.mb-5(data-aos="fade-up-left")
+          .col-lg-10
+            .row.align-items-center
+              .col-lg-5.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema4/img4.svg', style="width: 450px").m-auto
+              .col-lg-2.mb-4.mb-lg-0
+                figure.img-position3
+                  img(src='@/assets/curso/tema4/img5.svg', style="width: 80px").m-auto
+              .col-lg-5
+                figure
+                  img(src='@/assets/curso/tema4/img6.svg', style="width: 450px").m-auto
         .row
-          .col-auto
+          .col-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema4/img7.svg', style="width: 70px")
           .col
@@ -184,63 +186,63 @@
     p.mb-5 Una vez se cuenta con esta base mínima, se procede a crear un área de recepción y seguimiento que en ocasiones se delega, acorde al tamaño de la organización, para que se manejen los siguientes puntos:
     .row.align-items-center.mb-4
       .col-lg-8.mb-4.mb-lg-0
-        .tarjeta.tarjeta--gris.p-5
+        .tarjeta.tarjeta--rosa.p-3.p-lg-5
           PasosB.color-acento-contenido
             .row.justify-content-center(titulo="1er. acuerdo")
               .col-11
                 .row.align-items-center
-                  .col-auto
+                  .col-lg-2.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema4/img13.svg', style="width: 100px").m-auto
-                  .col
+                      img(src='@/assets/curso/tema4/img13.svg', style="width: 80px").m-auto
+                  .col-lg-8
                     p.mb-0 #[b 1er. acuerdo]: recepción de la PQRS.
             .row.justify-content-center(titulo="2do. acuerdo")
               .col-11
                 .row.align-items-center
-                  .col-auto
+                  .col-lg-2.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema4/img14.svg', style="width: 100px").m-auto
-                  .col
+                      img(src='@/assets/curso/tema4/img14.svg', style="width: 80px").m-auto
+                  .col-lg-8
                     p.mb-0 #[b 2do. acuerdo]: trámite de la solicitud con el área designada, es decir se identifica el proceso al cual va dirigida la PQRSF y se le notifica para que identifique la causal y haga un análisis de la situación para dar respuesta y solución al cliente.
             .row.justify-content-center(titulo="3er. acuerdo")
               .col-11
                 .row.align-items-center
-                  .col-auto
+                  .col-lg-2.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema4/img15.svg', style="width: 100px").m-auto
-                  .col
+                      img(src='@/assets/curso/tema4/img15.svg', style="width: 80px").m-auto
+                  .col-lg-8
                     p.mb-0 #[b 3er. acuerdo]: hacer seguimiento del proceso identificando en qué fase va el área para dar respuesta rápida.
             .row.justify-content-center(titulo="4to. acuerdo")
               .col-11
                 .row.align-items-center
-                  .col-auto
+                  .col-lg-2.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema4/img16.svg', style="width: 100px").m-auto
-                  .col
+                      img(src='@/assets/curso/tema4/img16.svg', style="width: 80px").m-auto
+                  .col-lg-8
                     p.mb-0 #[b 4to. acuerdo]: recibir la respuesta del área encargada y remitir al solicitante con la solución.
             .row.justify-content-center(titulo="5to. acuerdo")
               .col-11
                 .row.align-items-center
-                  .col-auto
+                  .col-lg-2.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema4/img17.svg', style="width: 100px").m-auto
-                  .col
+                      img(src='@/assets/curso/tema4/img17.svg', style="width: 80px").m-auto
+                  .col-lg-8
                     p.mb-0 #[b 5to. acuerdo]: evaluar la satisfacción del cliente.
             .row.justify-content-center(titulo="6to. acuerdo")
               .col-11
                 .row.align-items-center
-                  .col-auto
+                  .col-lg-2.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema4/img18.svg', style="width: 100px").m-auto
-                  .col
+                      img(src='@/assets/curso/tema4/img18.svg', style="width: 80px").m-auto
+                  .col-lg-8
                     p.mb-0 #[b 6to. acuerdo]: generar plan de mejora para que esta situación no vuelva a suceder, en este punto se involucra al área.
             .row.justify-content-center(titulo="7mo. acuerdo")
               .col-11
                 .row.align-items-center
-                  .col-auto
+                  .col-lg-2.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema4/img19.svg', style="width: 100px").m-auto
-                  .col
+                      img(src='@/assets/curso/tema4/img19.svg', style="width: 80px").m-auto
+                  .col-lg-8
                     p.mb-0 #[b 7mo. acuerdo]:  cierre del proceso.
       .col-lg-4
         figure(data-aos="fade-up-left")

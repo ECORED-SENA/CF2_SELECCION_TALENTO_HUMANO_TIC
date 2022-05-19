@@ -25,8 +25,8 @@
           .col-lg-6
             figure
               img(src='@/assets/curso/tema3/img1.png', style="width: 600px")
-          .col-lg-6.bg-color11
-            .p-4
+          .col-lg-6
+            .bg-color11
               p.mb-0 Para esto el país cuenta con la Política Nacional para la Transformación digital e Inteligencia Artificial en el documento CONPES 3975 del 8 de noviembre de 2019. Esta política está cambiando radicalmente la sociedad y es uno de los principales motores de la 4 Revolución Industrial (en adelante 4RI), lo que conlleva a asumir grandes retos por las consabidas pérdidas de movilidad y oportunidad del país, para generar valor económico y social, a través del uso de las Tecnologías de la Información y las Comunicaciones TIC (CONPES 3975, 2019,11,8).
         #t_3_1.pt-5
         .titulo-segundo.color-acento-contenido
@@ -39,7 +39,7 @@
           .col
             p.mb-0 El CRM es un conjunto de estrategias de negocio que integra acciones de marketing soportadas en diversos canales de comunicación, ideadas con el fin de construir relaciones duraderas con los clientes, centradas en conocer, comprender y satisfacer sus necesidades para lograr la conquista, afiliación, retención y fidelización de los clientes. Dentro de los propósitos del CRM encontramos los siguientes:
         .row.justify-content-center
-          .col-lg-8
+          .col-lg-6
             .titulo-sexto.color-acento-botones
               p.mb-0 #[b Figura 3]. Propósitos del CRM
             figure.mb-5(data-aos="fade-up-right")
@@ -49,13 +49,13 @@
     .titulo-segundo.color-acento-contenido
       h2 3.2  ERP (#[i Enterprise Resource Planning])
     .row.align-items-start.mb-5
-      .col-auto
+      .col-auto.d-none.d-lg-block
         figure.mt-2
           img(src='@/assets/curso/tema3/img3.svg', style="width: 70px")
       .col
         p.mb-0 Los sistemas de planeación de recursos empresariales integran la información de las áreas de una empresa, es decir, se comparte información de todas y cada una de las áreas o procesos a partir de un único sistema informático, lo cual facilita la interacción entre los colaboradores, agiliza las comunicaciones, facilita la operatividad y se convierte en herramienta fundamental para la toma de decisiones de los directivos. A continuación, se pueden observar las áreas de integración.
     .row.justify-content-center
-      .col-lg-8
+      .col-lg-6
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 4].  Áreas de integración del ERP
         figure.mb-5(data-aos="fade-up-right")
@@ -64,7 +64,7 @@
     #t_3_3.pt-5
     .titulo-segundo.color-acento-contenido
       h2 3.3  SAP (#[i Systems, Applications, Products])
-    .row.align-items-center
+    .row.align-items-center.mb-4.mb-lg-0
       .col-lg-7
         p Son los sistemas, aplicaciones y productos en procesamiento de datos, es la empresa líder en software ERP, proviene de una multinacional alemana creada desde 1972 por antiguos empleados de IBM (iebschool, 2020).
         p Tres características fundamentales de SAP son:
@@ -86,23 +86,23 @@
           img(src='@/assets/curso/tema3/img2.png', style="width: 600px")
     p.mb-5 La configuración de los SAP se hace atendiendo las características de la empresa o negocio, sin embargo, los módulos que más comúnmente se utilizan son los siguientes:
     .row.justify-content-center.mb-5
-      .col-5.col-md-4.col-lg-3
+      .col-9.col-md-4.col-lg-3
         .p-2
           figure
             img(src='@/assets/curso/tema3/img5.svg', style="width: 300px")
-      .col-5.col-md-4.col-lg-3
+      .col-9.col-md-4.col-lg-3
         .p-2
           figure
             img(src='@/assets/curso/tema3/img6.svg', style="width: 300px")
-      .col-5.col-md-4.col-lg-3
+      .col-9.col-md-4.col-lg-3
         .p-2
           figure
             img(src='@/assets/curso/tema3/img7.svg', style="width: 300px")
-      .col-5.col-md-4.col-lg-3
+      .col-9.col-md-4.col-lg-3
         .p-2
           figure
             img(src='@/assets/curso/tema3/img8.svg', style="width: 300px")
-      .col-5.col-md-4.col-lg-3
+      .col-9.col-md-4.col-lg-3
         .p-2
           figure
             img(src='@/assets/curso/tema3/img9.svg', style="width: 300px")

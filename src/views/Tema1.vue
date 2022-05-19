@@ -24,15 +24,57 @@
     .titulo-segundo.color-acento-contenido
       h2 1.1 Comunicación oral
     .row.mb-5
-      .col-auto
+      .col-auto.d-none.d-lg-block.mb-3
         figure.mb-3
           img(src='@/assets/curso/tema1/img2.svg', style="width: 50px")
       .col
         p.mb-0 Este tipo expresión comprende el mensaje entre las personas usando el habla, teniendo en cuenta el manejo de emociones, uso adecuado de las palabras y escuchando, obteniendo así buenas relaciones con las personas de su entorno.
       .col-12
         p La oratoria o comunicación oral es la que se verbaliza a través de la palabra, sin embargo, eso no quiere decir que solo las palabras importan, tal como ilustra el autor norteamericano Bert Decker en su obra #[span.txt-deco1 “El Arte de la comunicación. Cómo lograr un impacto interpersonal”] para lo cual se requiere del manejo de nueve habilidades así:
-    figure.mb-5(data-aos="fade-up-left")
-      img(src='@/assets/curso/tema1/img3.svg', style="width: 900px").m-auto
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .row.align-items-center(data-aos="fade-up-left")
+          .col-lg-7.px-0
+            figure
+              img(src='@/assets/curso/tema1/img3.svg', style="width: 650px")
+          .col-lg-5.p-4.bg-color15
+            ul.lista-ul
+              li 
+                i.far.fa-dot-circle(style="color:#7F4FC7")
+                |
+                p.mb-0 Comunicación visual.
+              li 
+                i.far.fa-dot-circle(style="color:#7F4FC7")
+                |
+                p.mb-0 Postura y movimiento.
+              li 
+                i.far.fa-dot-circle(style="color:#7F4FC7")
+                |
+                p.mb-0 Gestos y expresiones de la cara.
+              li 
+                i.far.fa-dot-circle(style="color:#7F4FC7")
+                |
+                p.mb-0 El vestir y el aspecto.
+              li 
+                i.far.fa-dot-circle(style="color:#7F4FC7")
+                |
+                p.mb-0 Voz y variedad vocal.
+              li 
+                i.far.fa-dot-circle(style="color:#7F4FC7")
+                |
+                p.mb-0 Lenguaje y muletillas.
+              li 
+                i.far.fa-dot-circle(style="color:#7F4FC7")
+                |
+                p.mb-0 Atraer la atención del que lo escucha.
+              li 
+                i.far.fa-dot-circle(style="color:#7F4FC7")
+                |
+                p.mb-0 Humor.
+              li 
+                i.far.fa-dot-circle(style="color:#7F4FC7")
+                |
+                p.mb-0 Ser uno mismo.
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
         p El mismo autor ha utilizado esta frase en los entrenamientos de gerentes:
@@ -44,7 +86,7 @@
         p Nota: en este tipo de comunicación con el cliente se debe tener en cuenta el equilibrio entre cada palabra, es decir, #[span.txt-deco1 sin agresividad – no agredir, ni pasividad – evitar, para tener una conversación eficiente].
       .col-lg-5
         figure(data-aos="fade-up-left")
-          img(src='@/assets/curso/tema1/img4.svg', style="width: 450px")
+          img(src='@/assets/curso/tema1/img4.svg', style="width: 450px").m-auto
     .separador
     .row.bg-color2.mb-5
       .col-12.p-5
@@ -55,10 +97,18 @@
           .col-lg-5.mb-4.mb-lg-0
             p Todas las personas pueden expresar de forma verbal, con frases ideales para toda ocasión sus ideas, pero cabe resaltar que esto va acompañado de los gestos o expresiones corporales que pueden reforzar su comunicado o emitir otro mensaje.Diversos autores y especialistas de la comunicación utilizan la fórmula 55/38/7, dados los resultados hallados después de sendas investigaciones acerca del peso que tienen los gestos, posturas y movimientos en la comunicación interpersonal.
           .col-lg-7
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/tema1/img5.svg', style="width: 650px").m-auto
+            .row
+              .col-lg-4.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema1/img38.svg', style="width: 250px").m-auto
+              .col-lg-4.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema1/img39.svg', style="width: 250px").m-auto
+              .col-lg-4
+                figure
+                  img(src='@/assets/curso/tema1/img40.svg', style="width: 250px").m-auto
           .row.mt-4
-            .col-auto
+            .col-auto.d-none.d-lg-block.mb-3
               figure
                 img(src='@/assets/curso/tema1/img6.svg', style="width: 50px").m-auto
             .col
@@ -66,24 +116,24 @@
         p.mb-4 #[b Las tres disciplinas de la comunicación no verbal son (Machado Mateos, 2020):]
         .row.align-items-center.justify-content-center
           .col-lg-5.mb-4.mb-lg-0
-            SlyderF(columnas="col-lg-6 col-xl-12")
+            SlyderF(columnas=".col-4.col-lg-12")
               .tarjeta.color-acento-4.p-5
                 .row.justify-content-center.mb-3.mt-4
                   .col-4.mb-3
                     img(src='@/assets/curso/tema1/img7.svg' alt='AvatarTop')
-                h2.text-center Kinésica (quinésica)
+                h4.text-center Kinésica (quinésica)
                 p.text-center.mb-4 Estudia el significado de los movimientos que acompañan la comunicación (gestos, posturas, miradas).
               .tarjeta.color-acento-4.p-5
                 .row.justify-content-center.mb-3.mt-4
                   .col-4.mb-3
                     img(src='@/assets/curso/tema1/img8.svg' alt='AvatarTop')
-                h2.text-center Proxémica
+                h4.text-center Proxémica
                 p.text-center.mb-4 Se relaciona con el espacio personal y que rodea la comunicación, depende de diversos factores como el grado de intimidad, la personalidad, edad y cultura.
               .tarjeta.color-acento-4.p-5
                 .row.justify-content-center.mb-3.mt-4
                   .col-4.mb-3
                     img(src='@/assets/curso/tema1/img9.svg' alt='AvatarTop')
-                h2.text-center Paralingüística
+                h4.text-center Paralingüística
                 p.text-center.mb-4 Comprende esos aspectos que acompañan las palabras como tono, volumen, timbre, ritmo (o fluidez) y silencios (en ocasiones necesarios, en otras incómodos).
           .col-lg-5
             figure(data-aos="fade-up-left")
@@ -171,7 +221,7 @@
     .row.bg-color4
       .col-12.p-5
         .row.align-items-center.mb-5
-          .col-lg-7
+          .col-lg-7.mb-4.mb-lg-0
             .tarjeta.tarjeta--azul.p-4
               SlyderA(tipo="b")
                 .row.align-items-center.justify-content-center
@@ -224,7 +274,7 @@
             figure(data-aos="fade-up-left")
               img(src='@/assets/curso/tema1/img3.png', style="width: 450px").m-auto
         .row.align-items-center
-          .col-lg-5
+          .col-lg-5.mb-4.mb-lg-0
             figure(data-aos="fade-up-right")
               img(src='@/assets/curso/tema1/img4.png', style="width: 450px").m-auto
           .col-lg-7
@@ -290,7 +340,7 @@
           h2 1.5 Comunicación telemática
         p Este tipo de comunicación se utiliza tanto para venta de productos, como también para mejorar la calidad del servicio al cliente por medio de un acompañamiento personalizado que ha servido para resolver dudas e inquietudes de los consumidores en las organizaciones.
     .row.mb-4.justify-content-center
-      .col-6.col-lg-4.col-xl-3.mb-4.mb-lg-0
+      .col-10.col-lg-4.col-xl-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -298,7 +348,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5
               h1.text-white Correo electrónico
               p.text-white La GTC 185 de Documentación Organizacional hace referencia a este, como el mecanismo que permite la comunicación individual o masiva con asuntos puntuales y cortos, al que también se pueden anexar cartas, circulares, tarjetas y otro tipo de documentos.
-      .col-6.col-lg-4.col-xl-3.mb-4.mb-lg-0
+      .col-10.col-lg-4.col-xl-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img6.png')})`}")
@@ -306,7 +356,7 @@
               h1.text-white Chats y Foros
               p.text-white #[b Chats]: conversaciones a través del ordenador, entre dos o más personas.
               p.text-white #[b Foros]: permiten la publicación de conceptos u opiniones y la consulta de los demás.
-      .col-6.col-lg-4.col-xl-3
+      .col-10.col-lg-4.col-xl-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img7.png')})`}")
@@ -315,14 +365,14 @@
               p.text-white Espacio donde se publican contenidos, imágenes, experiencias para compartir.
               p.text-white FAQ (#[i frequently asked questions]) o #[i Chatbots], preguntas frecuentes con sus respectivas respuestas
     .row.mb-5.justify-content-center
-      .col-6.col-lg-4.col-xl-3
+      .col-10.col-lg-4.col-xl-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img8.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h1.text-white Servicios de mensajería SMS (#[i short message service])
               p.text-white #[b El WhatsApp]: permite enviar mensajes, videos, audios y documentos por internet
-      .col-6.col-lg-4.col-xl-3
+      .col-10.col-lg-4.col-xl-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img9.png')})`}")
@@ -463,7 +513,7 @@
         p.mb-4 El recibo, transferencia, manipulación y archivo de la información son procedimientos imprescindibles que deben estar definidos y estandarizados dentro de la organización, por lo tanto, conlleva mucha responsabilidad de los colaboradores que en cualquier momento dado los deben manipular.
         .row
           .col-auto
-            figure
+            figure.d-none.d-lg-block
               img(src='@/assets/curso/tema1/img24.svg', style="width: 50px").m-auto
           .col
             p.mb-0 Como en todo proceso existen elementos de entrada, en el caso de la información, será la llamada, el correo o el documento, si se trata de un documento que debe pasar a proceso de #[span.txt-deco1 radicación], que regularmente se da en una oficina de recepción o control de documentos, donde se coloca una señal o sello de recibido acompañado de la fecha, hora y persona que lo recibe. Luego se pasa a la oficina o área que corresponde según el asunto.
@@ -502,7 +552,7 @@
             p Nota: tomado de Starsolutionsti.com, 2021
     .row.mb-5
       .col-auto
-        figure
+        figure.d-none.d-lg-block
           img(src='@/assets/curso/tema1/img24.svg', style="width: 50px").m-auto
       .col
         p.mb-0 Para la salvaguarda y seguridad de la información, las organizaciones cuentan con la Norma ISO 27001 referente mundial para implementar el Sistema de Gestión de Seguridad de la Información, con la cual se genera confianza tanto con el personal interno como con todas las partes interesadas del sector externo. Esta normativa permite que los datos suministrados sean confidenciales, íntegros, disponibles y legales, con el fin de estar protegidos frente a los riesgos que se puedan presentar. Veamos los beneficios de su implementación:

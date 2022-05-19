@@ -18,6 +18,9 @@
   background-repeat: no-repeat
   background-size: cover
 
+.tarjeta--rosa
+  background-color: #EDE7F7
+
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #7F4FC7
 
@@ -81,12 +84,34 @@ td, th
 
 .tabs-c__content-item
   background-image: url(../assets/curso/tema2/img11.svg)
+  background-repeat: no-repeat
+  background-size: cover
 
 .tabs-c
   border-bottom: 0px
 
 .tarjeta.tarjeta--gris
-  background-color: #EDE7F7
+  background-color: #E2E2E2
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  font-size: 20px
+
+.tabs-c.color-primario .tabs-c__tab--active
+  border-bottom-color: #7F4FC7 !important
+
+.tabs-c.color-primario .tabs-c__tab--active::before
+  border-top-color: #7F4FC7
+
+.tabs-c__tab--active
+  color: #7F4FC7
+  font-weight: bold
+
+.slyder__btn:hover
+  background-color: #7F4FC7
+
+.data-v-e258dbfc
+  h3
+    color: #7F4FC7
 
 .bg-color1
   background-color: #DDEDF8
@@ -136,8 +161,8 @@ td, th
 
 .bg-color11
   background-color: #FFFAD8
-  position: relative
-  right: 130px
+  margin-left: -9rem
+  padding: 1.5rem
 
 .bg-color12
   background-color: #FFFAD8
@@ -156,6 +181,10 @@ td, th
   background-repeat: no-repeat
   background-size: cover
   margin-bottom: -48px
+
+.bg-color15
+  background-color: #E0D5F1
+  border-radius: 10px
 
 .txt-deco1
   color: #7F4FC7
@@ -183,7 +212,8 @@ td, th
 
 .img-position4
   position: relative
-  left: 95px
+  left: 106px
+  width: 124px
 
 .linea1
   border-right: 3px dashed white
@@ -191,7 +221,7 @@ td, th
 @media screen and ( max-width: 1200px )
 
   .img-position4
-    left: 70px
+    left: 80px
 
 @media screen and ( max-width: 992px )
 
@@ -205,7 +235,25 @@ td, th
     transform: rotate(90deg)
   
   .img-position4
-    left: 50px
+    left: 60px
+    width: 80px
 
   .bg-color11
-    right: 0px
+    margin-left: 0px
+
+  .bg-color14
+    margin-bottom: -24px
+
+  .bg-color15
+    border-radius: 0px
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+
+  .linea1
+    border-right: 0px dashed white
+
+@media screen and ( max-width: 768px )
+
+  .img-position4
+    left: 30px
+    width: 80px

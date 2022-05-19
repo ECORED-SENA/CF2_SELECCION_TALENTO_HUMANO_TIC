@@ -10,7 +10,7 @@
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
         .row
-          .col-auto
+          .col-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema6/img1.svg', style="width: 60px")
           .col
@@ -67,7 +67,7 @@
             .p-3
               p.mb-0 #[span.txt-deco1 Nota:] como se puede observar, se identifica que la mejora en el proceso de atención y servicio al cliente es constante, debido a que se interactúa con personas y de su satisfacción depende la sostenibilidad de la empresa.
         .row.mb-4
-          .col-auto
+          .col-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema6/img5.svg', style="width: 60px")
           .col
@@ -83,7 +83,7 @@
     .row.align-items-center.mb-4
       .col-lg-7.mb-4.mb-lg-0
         .row.mb-2
-          .col-auto
+          .col-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema6/img5.svg', style="width: 60px")
           .col
@@ -104,17 +104,19 @@
             .p-3
               p.mb-0 #[span.txt-deco1 Nota:] se aclara que la gestión ambiental no debe ser obligatoria si no que debe ser algo natural en todas las organizaciones ya que las empresas se crean para dar un bienestar tanto económico, social, ambiental, tecnológico a las comunidades.
         .row
-          .col-auto
+          .col-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema6/img5.svg', style="width: 60px")
           .col
             p.mb-0 Para concluir, uniendo los puntos anteriores se insiste sobre los planes de mejora, los canales de comunicación, conocimientos que los aprendices, empresarios y demás partes interesadas de las organizaciones implementen en cada una, va generar como resultado la sostenibilidad de la empresa, es decir maximiza la probabilidad de permanecer en el mercado ya que va a estar actualizada sobre las demandas de sus consumidores.
     .row.align-items-center(data-aos="fade-right")
       .col-2
-        figure.img-position4
-          img(src='@/assets/curso/tema6/img6.svg', style="width: 120px")
-      .col-10.p-4.bg-color7
-        p.mb-0.ps-5 Estimado aprendiz, para finalizar la formación de este componente formativo, tenga en cuenta que una empresa competitiva es aquella que logra tener una comunicación eficiente y eficaz con el entorno que la rodea ya que de ese diálogo continuo nacen oportunidades de crecimiento y estrategias de sostenibilidad.
+        .img-position4
+          figure
+            img(src='@/assets/curso/tema6/img6.svg')
+      .col-9
+        .px-4.py-3.bg-color7
+          p.mb-0.ps-5 Estimado aprendiz, para finalizar la formación de este componente formativo, tenga en cuenta que una empresa competitiva es aquella que logra tener una comunicación eficiente y eficaz con el entorno que la rodea ya que de ese diálogo continuo nacen oportunidades de crecimiento y estrategias de sostenibilidad.
 
 </template>
 
