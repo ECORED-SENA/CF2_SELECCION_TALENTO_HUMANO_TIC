@@ -44,6 +44,9 @@
               p.mb-0 #[b Figura 3]. Propósitos del CRM
             figure.mb-5(data-aos="fade-up-right")
               img(src='@/assets/curso/tema3/img2.svg', style="width: 800px").m-auto
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/G5SZHCsYEcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .separador
     #t_3_2.pt-5
     .titulo-segundo.color-acento-contenido

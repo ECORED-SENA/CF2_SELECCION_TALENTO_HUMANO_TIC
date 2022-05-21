@@ -27,10 +27,21 @@
           img(src='@/assets/curso/tema6/img1.png', style="width: 650px").m-auto
       .col-lg-7
         p.mb-4 Para generar propuestas de mejora, es importante identificar la situación actual de lo que queremos mejorar es decir se debe hacer uso de la información recibida por los clientes revisando punto por punto e identificando cuales son positivos y negativos, por ejemplo:
-        figure.mb-4
-          img(src='@/assets/curso/tema6/img3.svg', style="width: 450px").m-auto
-        figure.mb-4
-          img(src='@/assets/curso/tema6/img4.svg', style="width: 450px").m-auto
+        .row
+          .col-12
+            .tarjeta-avatar-b.mb-3
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema6/img3.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--rosa
+                .p-4
+                  p.mb-0.mt-lg-3 Satisfacción de 50 clientes en la puntualidad de la entrega = pésimo
+          .col-12
+            .tarjeta-avatar-b.mb-3
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema6/img4.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--rosa
+                .p-4
+                  p.mb-0.mt-lg-3 Atención de los funcionarios que hicieron la entrega a los 50 clientes = Excelente
         p Como podemos ver en el ejemplo, los clientes están insatisfechos con la puntualidad en la entrega del producto, pero no con la atención a la hora de la entrega.
     .separador
     #t_6_2.pt-5
@@ -109,14 +120,15 @@
               img(src='@/assets/curso/tema6/img5.svg', style="width: 60px")
           .col
             p.mb-0 Para concluir, uniendo los puntos anteriores se insiste sobre los planes de mejora, los canales de comunicación, conocimientos que los aprendices, empresarios y demás partes interesadas de las organizaciones implementen en cada una, va generar como resultado la sostenibilidad de la empresa, es decir maximiza la probabilidad de permanecer en el mercado ya que va a estar actualizada sobre las demandas de sus consumidores.
-    .row.align-items-center(data-aos="fade-right")
-      .col-2
-        .img-position4
-          figure
-            img(src='@/assets/curso/tema6/img6.svg')
-      .col-9
-        .px-4.py-3.bg-color7
-          p.mb-0.ps-5 Estimado aprendiz, para finalizar la formación de este componente formativo, tenga en cuenta que una empresa competitiva es aquella que logra tener una comunicación eficiente y eficaz con el entorno que la rodea ya que de ese diálogo continuo nacen oportunidades de crecimiento y estrategias de sostenibilidad.
+    .row.justify-content-center
+      .col-12
+        .p-3
+          .tarjeta-avatar-b
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema6/img6.svg' alt='AvatarTop')
+            .tarjeta.tarjeta--rosa
+              .p-4
+                p.mt-4 Estimado aprendiz, para finalizar la formación de este componente formativo, tenga en cuenta que una empresa competitiva es aquella que logra tener una comunicación eficiente y eficaz con el entorno que la rodea ya que de ese diálogo continuo nacen oportunidades de crecimiento y estrategias de sostenibilidad.
 
 </template>
 

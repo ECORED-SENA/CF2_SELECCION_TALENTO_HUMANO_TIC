@@ -186,8 +186,8 @@
     p.mb-5 Una vez se cuenta con esta base mínima, se procede a crear un área de recepción y seguimiento que en ocasiones se delega, acorde al tamaño de la organización, para que se manejen los siguientes puntos:
     .row.align-items-center.mb-4
       .col-lg-8.mb-4.mb-lg-0
-        .tarjeta.tarjeta--rosa.p-3.p-lg-5
-          PasosB.color-acento-contenido
+        .tarjeta.tarjeta--rosa.p-3.p-lg-3
+          LineaTiempoC.color-acento-contenido(text-small)
             .row.justify-content-center(titulo="1er. acuerdo")
               .col-11
                 .row.align-items-center

@@ -11,7 +11,7 @@
     p.mb-5 Lo invitamos a conocer de forma general, la temática que se trabajará en el presente componente formativo, cuyo contenido es vigente para cualquier tipo de empresa sin importar su razón social, lo importante es comprender que sin clientes no existe empresa.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/439cnf68frI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

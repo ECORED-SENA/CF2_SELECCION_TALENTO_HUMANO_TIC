@@ -98,15 +98,30 @@
             p Todas las personas pueden expresar de forma verbal, con frases ideales para toda ocasión sus ideas, pero cabe resaltar que esto va acompañado de los gestos o expresiones corporales que pueden reforzar su comunicado o emitir otro mensaje.Diversos autores y especialistas de la comunicación utilizan la fórmula 55/38/7, dados los resultados hallados después de sendas investigaciones acerca del peso que tienen los gestos, posturas y movimientos en la comunicación interpersonal.
           .col-lg-7
             .row
-              .col-lg-4.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/tema1/img38.svg', style="width: 250px").m-auto
-              .col-lg-4.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/tema1/img39.svg', style="width: 250px").m-auto
-              .col-lg-4
-                figure
-                  img(src='@/assets/curso/tema1/img40.svg', style="width: 250px").m-auto
+              .col-sm-6.col-lg-4.mb-4.mb-lg-0
+                .tarjeta--boton.color-primario.p-4.h-100
+                  .row.justify-content-center.mb-3
+                    .col-7
+                      figure.mb-4
+                        img(src='@/assets/curso/tema1/img38.svg', alt='Texto que describa la imagen')
+                  h3.text-center.txt-deco2 55%
+                  p.text-small.text-white.text-center.mb-0 Movimientos, posturas, gestos (expresión corporal)
+              .col-sm-6.col-lg-4.mb-4.mb-lg-0
+                .tarjeta--boton.color-primario.p-4.h-100
+                  .row.justify-content-center.mb-3
+                    .col-7
+                      figure.mb-4
+                        img(src='@/assets/curso/tema1/img39.svg', alt='Texto que describa la imagen')
+                  h3.text-center.txt-deco2 38%
+                  p.text-small.text-white.text-center.mb-0 Tono y proyección de la voz
+              .col-sm-6.col-lg-4.mb-4.mb-sm-0
+                .tarjeta--boton.color-primario.p-4.h-100
+                  .row.justify-content-center.mb-3
+                    .col-7
+                      figure.mb-4
+                        img(src='@/assets/curso/tema1/img40.svg', alt='Texto que describa la imagen')
+                  h3.text-center.txt-deco2 7%
+                  p.text-small.text-white.text-center.mb-0 Expresión verbal
           .row.mt-4
             .col-auto.d-none.d-lg-block.mb-3
               figure
@@ -383,7 +398,7 @@
     p.mb-5 Debido a la pandemia y a las nuevas disposiciones del trabajo combinado, teletrabajo y trabajo en casa, se ha generalizado el uso de la videoconferencia, veamos las ventajas y desventajas de este mecanismo:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/BAPwRbI-bkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .separador
     #t_1_6.pt-5
     .titulo-segundo.color-acento-contenido
@@ -563,46 +578,76 @@
       .col-lg-8
         p.mb-4 #[b Beneficios del ISO 27001]
         .row
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img27.svg', style="width: 450px").m-auto
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img28.svg', style="width: 450px").m-auto
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img29.svg', style="width: 450px").m-auto
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img30.svg', style="width: 450px").m-auto
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img31.svg', style="width: 450px").m-auto
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img32.svg', style="width: 450px").m-auto
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img33.svg', style="width: 450px").m-auto
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img34.svg', style="width: 450px").m-auto
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img35.svg', style="width: 450px").m-auto
-          .col-lg-6
-            .p-3
-              figure
-                img(src='@/assets/curso/tema1/img36.svg', style="width: 450px").m-auto
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img27.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0 Reducir las posibilidades de infracciones de seguridad en su entorno informativo. 
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img28.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0 Un método estructurado para abordar los requisitos de compilación.
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img29.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0.mt-2 Confidencialidad de la información.
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img30.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0 Cumplimiento de requisitos reconocidos internacionalmente.
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img31.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0 Minimización de riesgos IT, posible daño y costo consecuente.
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img32.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0 Detección sistemática de vulnerabilidades.
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img33.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0 Ventaja competitiva debido al estándar reconocido.
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img34.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0.mt-0.mt-lg-2 Reducción de costos.
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img35.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0 Aumentar la confianza con respecto a los socios clientes y al publico.
+          .col-lg-6.mb-2
+            .tarjeta-avatar-b.h-100
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/img36.svg' alt='AvatarTop')
+              .tarjeta.color-acento-botones
+                .p-4
+                  p.mb-0.mt-0.mt-lg-4 Control de riesgo IT.
     .separador
     #t_1_9.pt-5
     .titulo-segundo.color-acento-contenido

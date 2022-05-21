@@ -57,13 +57,13 @@
               .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/img31.svg', style="width: 450px").m-auto
-        p.mb-5 En el siguiente gráfico se interpreta la teoría de la gestión por competencias de la Psicóloga Paola Ramos.
-        .row.justify-content-center
-          .col-lg-8
-            .titulo-sexto.color-acento-botones
-              p.mb-0 #[b Figura 1]. Teoría de la gestión por competencias
-            figure.mb-5(data-aos="fade-up-right")
-              img(src='@/assets/curso/tema2/img6.svg', style="width: 1100px").m-auto
+    p.mb-5 En el siguiente gráfico se interpreta la teoría de la gestión por competencias de la Psicóloga Paola Ramos.
+    .row.justify-content-center
+      .col-lg-8
+        .titulo-sexto.color-acento-botones
+          p.mb-0 #[b Figura 1]. Teoría de la gestión por competencias
+        figure.mb-5(data-aos="fade-up-right")
+          img(src='@/assets/curso/tema2/img6.svg', style="width: 1100px").m-auto
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
         .row.mb-4
@@ -128,35 +128,69 @@
       .col-lg-5
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema2/img4.png', style="width: 550px").m-auto
-    .row.bg-color7.mb-5
+    .row.bg-color16.mb-5
       .col-12.p-2.p-lg-5
         h4.txt-deco1.text-center.mb-5.mt-3.mt-lg-0 Fases de la empatía
-        .row(data-aos="fade-up")
-          .col-lg-4
-            figure
-              img(src='@/assets/curso/tema2/img5.png', style="width: 550px").m-auto
-          .col-lg-4
-            figure
-              img(src='@/assets/curso/tema2/img6.png', style="width: 550px").m-auto
-          .col-lg-4
-            figure
-              img(src='@/assets/curso/tema2/img7.png', style="width: 550px").m-auto
+        .row.justify-content-center(data-aos="fade-up")
+          .col-10.col-lg-4.mb-4.mb-lg-0
+            .bg-color17
+              .row
+                .col-12.p-5
+                  .tarjeta
+                    .col-12
+                      br
+                      br
+                    .col-12
+                      br
+                      br
+                    .col-12
+                      p.text-center.text-white #[b Identificación]
+                      p.text-white Si fuera él y estuviera en sus circunstancias sentiría o haría lo mismo
+          .col-10.col-lg-4.mb-4.mb-lg-0
+            .bg-color18
+              .row
+                .col-12.p-5
+                  .row
+                    .col-12
+                      br
+                      br
+                    .col-12
+                      br
+                      br
+                    .col-12
+                      p.text-center.text-white #[b Incorporación y repercusión]
+                      p.text-white ¿Qué sentimientos de la otra persona despiertan emociones en mí?
+          .col-10.col-lg-4.mb-4.mb-lg-0
+            .bg-color19
+              .row
+                .col-12.p-5
+                  .row
+                    .col-12
+                      br
+                      br
+                    .col-12
+                      br
+                      br
+                    .col-12
+                      p.text-center.text-white #[b Separación o distanciamiento]
+                      p.text-white Una vez conocida la situación, se debe dar paso a la razón.
+                      p.text-white Determinar el límite de involucramiento para evitar afectación personal.
     h4.txt-deco1.text-center.mb-5 Para que la empatía se manifieste implica dos tareas:
     TabsC.color-primario.mb-5
       .p-3.p-md-4(titulo="Comprender a la otra persona")
-        .row.align-items-center.justify-content-center
-          .col-lg-5.mb-4.mb-lg-0
+        .row.align-items-center
+          .col-lg-7.mb-4.mb-lg-0
             h4.txt-deco1 Comprender a la otra persona
             p.mb-0 Mostrar verdadero interés y preocupación por la otra persona, eliminar las barreras internas y psicológicas, los estereotipos y las expectativas, de manera que se permita ver lo que la otra persona comunica, evitar las presunciones, supuestos y que las ideas propias limiten el acercamiento sincero hacia la otra persona.
-          .col-lg-5
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img8.png', style="width: 450px").m-auto
       .p-3.p-md-4(titulo="Demostrarle comprensión")
-        .row.align-items-center.justify-content-center
-          .col-lg-5.mb-4.mb-lg-0
+        .row.align-items-center
+          .col-lg-7.mb-4.mb-lg-0
             h4.txt-deco1 Demostrarle comprensión
             p.mb-0 ¿Cómo hacer ver a la otra persona que se le escucha? Utilizando todas las herramientas de la escucha activa, postura corporal y movimientos, mirada, asentir con la cabeza o con pequeñas frases, preguntas pertinentes, parafraseo y/o resumen.
-          .col-lg-5
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img9.png', style="width: 450px").m-auto
     .separador
@@ -456,7 +490,7 @@
         .row.align-items-center
           .col-lg-9.mb-4.mb-lg-0
             .tarjeta.tarjeta--rosa.p-5
-              PasosB.color-acento-contenido
+              LineaTiempoC.color-acento-contenido(text-small)
                 .row.justify-content-center(titulo="1. acuerdo")
                   .col-11
                     p #[b 1er. acuerdo: Se impecable con tus palabras]
