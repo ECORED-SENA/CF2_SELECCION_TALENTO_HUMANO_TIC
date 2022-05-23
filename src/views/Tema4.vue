@@ -53,7 +53,8 @@
           .col-lg-4
             figure.mt-4
               img(src='@/assets/curso/tema4/img5.png', style="width: 650px").m-auto
-    #t_4_1.pt-5
+    Separador
+    #t_4_1
     .titulo-segundo.color-acento-contenido
       h2 4.1 Normativa
     .row.align-items-center.mb-5
@@ -76,10 +77,10 @@
       .col-lg-4
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema4/img7.png', style="width: 650px").m-auto
-    .separador
+    Separador
     .row.bg-color13.mb-5
       .col-12.p-5
-        #t_4_2.pt-5
+        #t_4_2
         .titulo-segundo.color-acento-contenido
           h2 4.2 Formato
         .row.align-items-center.mb-5
@@ -102,8 +103,8 @@
           .col-lg-5
             figure(data-aos="fade-up-left")
               img(src='@/assets/curso/tema4/img8.png', style="width: 450px").m-auto
-        .separador
-        #t_4_3.pt-5
+        Separador
+        #t_4_3
         .titulo-segundo.color-acento-contenido
           h2 4.3 Instructivo de manejo y seguimiento
         .row.align-items-center.mb-5

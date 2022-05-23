@@ -31,7 +31,8 @@
               img(src='@/assets/curso/tema5/img1.svg', style="width: 60px")
           .col
             p En la actualidad, para que una empresa esté activa y competitiva en el mercado, debe mantener a sus clientes y para ello deben saber y retroalimentarse de la perspectiva que tienen del producto, servicio y atención que reciben cuando hacen uso de los mismos.
-    #t_5_1.pt-5
+    Separador
+    #t_5_1
     .titulo-segundo.color-acento-contenido
       h2 5.1 Concepto, formas, métodos e instrumentos
     .row.align-items-center.mb-4
@@ -76,8 +77,8 @@
               .col-lg-4
                 figure.mt-4
                   img(src='@/assets/curso/tema5/img5.png', style="width: 650px").m-auto
-        .separador
-        #t_5_2.pt-5
+        Separador
+        #t_5_2
         .titulo-segundo.color-acento-contenido
           h2 5.2 Presentación de resultados
         .row.align-items-center.mb-5

@@ -115,7 +115,8 @@
       .col-12.bg-color6
         .p-4
           p.mb-0 #[span.txt-deco1 Existe un listado amplio de habilidades sociales:] como la conversacional (saber iniciar, mantener y finalizar una conversación), el manejo de las emociones, la empatía, el asertividad, la oratoria (hablar en público), manejo de las negociaciones, la solución de conflictos, así como también la toma de decisiones; para este proceso de formación nos enfocaremos en las habilidades sociales requeridas para el nivel técnico.
-    #t_2_1.pt-5
+    Separador
+    #t_2_1
     .titulo-segundo.color-acento-contenido
       h2 2.1 Empatía
     .row.align-items-center.mb-5
@@ -193,8 +194,8 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img9.png', style="width: 450px").m-auto
-    .separador
-    #t_2_2.pt-5
+    Separador
+    #t_2_2
     .titulo-segundo.color-acento-contenido
       h2 2.2 Trabajo en equipo y colaborativo
     p.mb-4 Uno de los autores que más ha trabajado en función de los equipos -Peter Senge- ilustra que la palabra “equipo” deriva del francés équiper y del escandinavo skipa, y significa “equipar un barco”, alude al conjunto de enseres y personas que realizan juntos una tarea. Senge en sus obras llama “equipo” a un grupo de personas que se necesitan entre sí para lograr un resultado #[span.txt-deco4 (es decir que se embarcan juntas) (Senge, 2010).]
@@ -320,8 +321,8 @@
     .row.bg-color9.mb-5
       .col-12.p-5
         SlyderB(:datos="datosSlyder")
-    .separador
-    #t_2_3.pt-5
+    Separador
+    #t_2_3
     .titulo-segundo.color-acento-contenido
       h2 2.3 Negociación
     .row.align-items-center
@@ -388,8 +389,8 @@
                 p.text-center.mb-0 Combinar alternativas.
                 p.text-center.mb-0 Buscar soluciones diferentes.
                 br.mb-3
-    .separador
-    #t_2_4.pt-5
+    Separador
+    #t_2_4
     .titulo-segundo.color-acento-contenido
       h2 2.4 Solución de conflictos
     .row.align-items-center.mb-5

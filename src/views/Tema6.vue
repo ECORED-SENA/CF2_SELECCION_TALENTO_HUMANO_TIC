@@ -18,7 +18,8 @@
       .col-lg-5
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema6/img2.svg', style="width: 650px").m-auto
-    #t_6_1.pt-5
+    Separador
+    #t_6_1
     .titulo-segundo.color-acento-contenido
       h2 6.1 Identificación de hallazgos positivos y negativos
     .row.align-items-center.mb-5
@@ -43,8 +44,8 @@
                 .p-4
                   p.mb-0.mt-lg-3 Atención de los funcionarios que hicieron la entrega a los 50 clientes = Excelente
         p Como podemos ver en el ejemplo, los clientes están insatisfechos con la puntualidad en la entrega del producto, pero no con la atención a la hora de la entrega.
-    .separador
-    #t_6_2.pt-5
+    Separador
+    #t_6_2
     .titulo-segundo.color-acento-contenido
       h2 6.2 Aplicación de correctivos y mejoras al proceso de atención a clientes
     .row.align-items-center.mb-5
@@ -87,8 +88,8 @@
           .col-12.bg-color6
             .p-3
               p.mb-0 #[span.txt-deco1 Nota:] para este último punto, tener en cuenta explicarle al funcionario el propósito de mejora y no de control para reprimir.
-    .separador
-    #t_6_3.pt-5
+    Separador
+    #t_6_3
     .titulo-segundo.color-acento-contenido
       h2 6.3 Beneficios y garantías: económicas, sociales, ambientales, de sostenibilidad y competitividad
     .row.align-items-center.mb-4

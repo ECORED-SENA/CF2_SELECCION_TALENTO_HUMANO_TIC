@@ -28,7 +28,8 @@
           .col-lg-6
             .bg-color11
               p.mb-0 Para esto el país cuenta con la Política Nacional para la Transformación digital e Inteligencia Artificial en el documento CONPES 3975 del 8 de noviembre de 2019. Esta política está cambiando radicalmente la sociedad y es uno de los principales motores de la 4 Revolución Industrial (en adelante 4RI), lo que conlleva a asumir grandes retos por las consabidas pérdidas de movilidad y oportunidad del país, para generar valor económico y social, a través del uso de las Tecnologías de la Información y las Comunicaciones TIC (CONPES 3975, 2019,11,8).
-        #t_3_1.pt-5
+        Separador
+        #t_3_1
         .titulo-segundo.color-acento-contenido
           h2 3.1  CRM (#[i Customer Relationship Management])
         p.mb-4 El CRM trata la gestión de las relaciones con el cliente, entendiéndose que cliente no solo es el que compra una y otra vez, sino toda persona, grupo o entidad con quien la empresa intercambia valor.
@@ -47,8 +48,8 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/G5SZHCsYEcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .separador
-    #t_3_2.pt-5
+    Separador
+    #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2  ERP (#[i Enterprise Resource Planning])
     .row.align-items-start.mb-5
@@ -63,8 +64,8 @@
           p.mb-0 #[b Figura 4].  Áreas de integración del ERP
         figure.mb-5(data-aos="fade-up-right")
           img(src='@/assets/curso/tema3/img4.svg', style="width: 800px").m-auto
-    .separador
-    #t_3_3.pt-5
+    Separador
+    #t_3_3
     .titulo-segundo.color-acento-contenido
       h2 3.3  SAP (#[i Systems, Applications, Products])
     .row.align-items-center.mb-4.mb-lg-0
@@ -109,8 +110,8 @@
         .p-2
           figure
             img(src='@/assets/curso/tema3/img9.svg', style="width: 300px")
-    .separador
-    #t_3_4.pt-5
+    Separador
+    #t_3_4
     .titulo-segundo.color-acento-contenido
       h2 3.4 Otros sistemas y medios electrónicos
     p.mb-4 Día a día siguen apareciendo más aplicaciones y canales ágiles de comunicación con los clientes, entre ellos tenemos:

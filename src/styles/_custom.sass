@@ -124,6 +124,40 @@ td, th
 .tarjeta-avatar-b .tarjeta
   margin-left: -10%
 
+.crd_hover_txt1
+  position: relative  
+  padding: 0 !important
+  overflow: hidden  
+  
+  &:hover    
+    .crd_hover_txt--font     
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+  .crd_hover_txt--font
+    position: absolute
+    padding: 2rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 4.5rem ))
+    background-color: #7F4FC7
+  
+.crd_hover_txt2
+  position: relative  
+  padding: 0 !important
+  overflow: hidden  
+  
+  &:hover    
+    .crd_hover_txt--font     
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+  .crd_hover_txt--font
+    position: absolute
+    padding: 2rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 4.5rem ))
+    background-color: #2194E5
+
 .bg-color1
   background-color: #DDEDF8
 

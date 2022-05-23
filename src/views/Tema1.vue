@@ -20,7 +20,8 @@
             figure.d-none.d-lg-block.mb-3
               img(src='@/assets/curso/tema1/img2.svg', style="width: 70px")
             p.mb-0 Entendiendo esto, el aprendiz aprenderá en los siguientes temas cómo las empresas interactúan con sus clientes ya que por este medio podrá resolver inquietudes y solucionar problemas en la organización o en su vida propia, utilizando el medio más adecuado.
-    #t_1_1.pt-5
+    Separador
+    #t_1_1
     .titulo-segundo.color-acento-contenido
       h2 1.1 Comunicación oral
     .row.mb-5
@@ -87,10 +88,10 @@
       .col-lg-5
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img4.svg', style="width: 450px").m-auto
-    .separador
+    Separador
     .row.bg-color2.mb-5
       .col-12.p-5
-        #t_1_2.pt-5
+        #t_1_2
         .titulo-segundo.color-acento-contenido
           h2 1.2 Comunicación gestual
         .row.mb-4
@@ -153,8 +154,8 @@
           .col-lg-5
             figure(data-aos="fade-up-left")
               img(src='@/assets/curso/tema1/img1.png', style="width: 450px").m-auto
-    .separador
-    #t_1_3.pt-5
+    Separador
+    #t_1_3
     .titulo-segundo.color-acento-contenido
       h2 1.3 Comunicación escrita
     .row
@@ -226,8 +227,8 @@
               figure.d-flex.justify-content-end
                 img(src='@/assets/curso/tema1/img14.svg', style="width: 100px")
     p.mb-5 Para estandarizar formatos y modelos de comunicación escrita dentro de las organizaciones, en Colombia sigue siendo vigente el uso de la Guía Técnica Colombiana 185 de Documentación organizacional, emitida desde 2009.
-    .separador
-    #t_1_4.pt-5
+    Separador
+    #t_1_4
     .titulo-segundo.color-acento-contenido
       h2 1.4 Comunicación telefónica
     .row
@@ -349,68 +350,68 @@
                 i.far.fa-dot-circle(style="color:#7F4FC7")
                 |
                 p.mb-0 Sonreír, no se ve, pero se nota.
-        .separador
-        #t_1_5.pt-5
+        Separador
+        #t_1_5
         .titulo-segundo.color-acento-contenido
           h2 1.5 Comunicación telemática
         p Este tipo de comunicación se utiliza tanto para venta de productos, como también para mejorar la calidad del servicio al cliente por medio de un acompañamiento personalizado que ha servido para resolver dudas e inquietudes de los consumidores en las organizaciones.
     .row.mb-4.justify-content-center
-      .col-10.col-lg-4.col-xl-3.mb-4.mb-lg-0
+      .col-10.col-lg-4.col-xl-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img5.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h1.text-white Correo electrónico
+              h3.text-white Correo electrónico
               p.text-white La GTC 185 de Documentación Organizacional hace referencia a este, como el mecanismo que permite la comunicación individual o masiva con asuntos puntuales y cortos, al que también se pueden anexar cartas, circulares, tarjetas y otro tipo de documentos.
-      .col-10.col-lg-4.col-xl-3.mb-4.mb-lg-0
+      .col-10.col-lg-4.col-xl-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img6.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h1.text-white Chats y Foros
+              h3.text-white Chats y Foros
               p.text-white #[b Chats]: conversaciones a través del ordenador, entre dos o más personas.
               p.text-white #[b Foros]: permiten la publicación de conceptos u opiniones y la consulta de los demás.
-      .col-10.col-lg-4.col-xl-3
+      .col-10.col-lg-4.col-xl-4
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img7.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h1.text-white Blogs
+              h3.text-white Blogs
               p.text-white Espacio donde se publican contenidos, imágenes, experiencias para compartir.
               p.text-white FAQ (#[i frequently asked questions]) o #[i Chatbots], preguntas frecuentes con sus respectivas respuestas
     .row.mb-5.justify-content-center
-      .col-10.col-lg-4.col-xl-3.mb-4.mb-lg-0
+      .col-10.col-lg-4.col-xl-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img8.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h1.text-white Servicios de mensajería SMS (#[i short message service])
+              h3.text-white Servicios de mensajería SMS (#[i short message service])
               p.text-white #[b El WhatsApp]: permite enviar mensajes, videos, audios y documentos por internet
-      .col-10.col-lg-4.col-xl-3
+      .col-10.col-lg-4.col-xl-4
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img9.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h1.text-white Redes sociales
+              h3.text-white Redes sociales
               p.text-white Instagram, Facebook, Linkedln, Twitter, Youtube, hoy son una necesidad.
               p.text-white Videoconferencias (Meet, Zoom, Teams).
     p.mb-5 Debido a la pandemia y a las nuevas disposiciones del trabajo combinado, teletrabajo y trabajo en casa, se ha generalizado el uso de la videoconferencia, veamos las ventajas y desventajas de este mecanismo:
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/BAPwRbI-bkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .separador
-    #t_1_6.pt-5
+    Separador
+    #t_1_6
     .titulo-segundo.color-acento-contenido
       h2 1.6 Barreras de la comunicación
     p.mb-5 Es importante mitigar cualquier situación que impida que el mensaje que se quiere emitir al cliente llegue de forma correcta, por eso en la comunicación se hace uso y aprovechamiento de muchos recursos como preguntas y respuestas, anécdotas, ilustraciones y demostraciones, pero también es común enfrentarse a barreras, veamos las más comunes:
     .row
       .col-lg-7
         TabsA.color-acento-botones.mb-5
-          .tarjeta.color-acento-botones.p-4(titulo="Físicas y<br>ambientales")
+          .tarjeta.color-acento-botones.p-4(titulo="Físicas y ambientales")
             h4 Físicas y ambientales
             p Relacionadas con el entorno físico (luz, calor, frio, incomodidad, distracciones visuales o auditivas).
-          .tarjeta.color-acento-botones.p-4(titulo="Técnicas y<br>tecnológicas")
+          .tarjeta.color-acento-botones.p-4(titulo="Técnicas y tecnológicas")
             h4 Técnicas y tecnológicas
             p Relacionadas con la semántica (significado de las palabras), la planeación y administración de información y recursos de comunicación.
           .tarjeta.color-acento-botones.p-4(titulo="Verbales")
@@ -454,8 +455,8 @@
               .col-lg-3
                 figure
                   img(src='@/assets/curso/tema1/img22.svg', style="width: 150px").m-auto
-    .separador
-    #t_1_7.pt-5
+    Separador
+    #t_1_7
     .titulo-segundo.color-acento-contenido
       h2 1.7 Flujo de la comunicación organizacional
     p.mb-5 Dentro de las organizaciones, la comunicación no solo se tipifica según el código, como ya se mencionó: verbal, gestual, escrita; se identifican otros tipos de comunicación, como se ilustra en la siguiente tabla:
@@ -519,8 +520,8 @@
       .col-lg-7
         p En medio de todo lo que circunda, la comunicación organizacional es fundamental que se establezca desde la dirección estratégica y luego se comunique a todos los colaboradores. ¿Cuál será el conducto regular de comunicación? Es decir, ¿cuál es la ruta que debe seguirse para escalar la información en cada uno de los equipos de trabajo y por lo tanto en los procesos y procedimientos de la organización?
         p El riesgo que se corre al no definir y comunicar con claridad el conducto regular es que los rumores empiecen a darse y terminen afectando a los procesos y a las personas, o que la petición hecha no llegue a oídos de quien la puede resolver y se quede sin atender.
-    .separador
-    #t_1_8.pt-5
+    Separador
+    #t_1_8
     .titulo-segundo.color-acento-contenido
       h2 1.8 Manejo de la información organizacional
     .row.mb-4
@@ -648,30 +649,28 @@
               .tarjeta.color-acento-botones
                 .p-4
                   p.mb-0.mt-0.mt-lg-4 Control de riesgo IT.
-    .separador
-    #t_1_9.pt-5
+    .Separador
+    #t_1_9
     .titulo-segundo.color-acento-contenido
       h2 1.9 Etiqueta y netiqueta
     p.mb-5 En los diferentes canales de comunicación con el cliente se deben seguir una serie de normas básicas de comportamiento tanto en el entorno presencial como en el uso virtual, para garantizar que la relación con el cliente perdure. Para esto a continuación, se presentan los siguientes protocolos:
     .row.justify-content-center.mb-5
-      .col-12.col-lg-6.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1.text-white.mt-5 Etiqueta
-              p.text-white Nos habla del cómo debemos comportarnos frente a diferentes momentos o situaciones en reuniones, actos ceremoniales, empresas, actividades culturales y se puede asociar para todo lo que hacemos como al cenar en casa y lugares públicos, el vestir según la ocasión, el tono de voz según el ambiente.
-              p.text-white.mb-5 Resumiendo, está en todas las actividades que hacemos a diario y está en nuestra formación del ser, saber hacer y saber estar, por ende, la importancia de conocerla.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img15.png')})`}")
-      .col-12.col-lg-6.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1.text-white.mt-5 Netiqueta
-              p.text-white Está asociada a la manera de comportarnos utilizando las redes de comunicación virtual que nos conlleva a un entorno de vida real, mencionando algunas como correos electrónicos, páginas web, WhatsApp, Facebook, Twitter, Meet, Zoom, Chatbots, Foros, Blogs y demás redes.
-              p.text-white.mb-5 Resumiendo, son las reglas que nos dice como debemos actuar cuando nos comunicamos en cualquier entorno virtual.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img16.png')})`}")
+      .col-lg-6.mb-4(data-aos="zoom-in")
+        .crd_hover_txt1
+          .crd_hover_txt--img.mb-0         
+            img(src="@/assets/curso/tema1/img15.png")
+          .crd_hover_txt--font
+            h4.text-white Etiqueta
+            p.text-white Nos habla del cómo debemos comportarnos frente a diferentes momentos o situaciones en reuniones, actos ceremoniales, empresas, actividades culturales y se puede asociar para todo lo que hacemos como al cenar en casa y lugares públicos, el vestir según la ocasión, el tono de voz según el ambiente.
+            p.text-white.mb-5 Resumiendo, está en todas las actividades que hacemos a diario y está en nuestra formación del ser, saber hacer y saber estar, por ende, la importancia de conocerla.
+      .col-lg-6.mb-4(data-aos="zoom-in")
+        .crd_hover_txt2
+          .crd_hover_txt--img.mb-0         
+            img(src="@/assets/curso/tema1/img16.png")
+          .crd_hover_txt--font
+            h4.text-white Netiqueta
+            p.text-white Está asociada a la manera de comportarnos utilizando las redes de comunicación virtual que nos conlleva a un entorno de vida real, mencionando algunas como correos electrónicos, páginas web, WhatsApp, Facebook, Twitter, Meet, Zoom, Chatbots, Foros, Blogs y demás redes.
+            p.text-white.mb-5 Resumiendo, son las reglas que nos dice como debemos actuar cuando nos comunicamos en cualquier entorno virtual.
     .row.mb-5
       .col-auto
         figure
