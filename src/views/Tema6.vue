@@ -28,7 +28,7 @@
           img(src='@/assets/curso/tema6/img1.png', style="width: 650px").m-auto
       .col-lg-7
         p.mb-4 Para generar propuestas de mejora, es importante identificar la situación actual de lo que queremos mejorar es decir se debe hacer uso de la información recibida por los clientes revisando punto por punto e identificando cuales son positivos y negativos, por ejemplo:
-        .row
+        .row(data-aos="fade-right")
           .col-12
             .tarjeta-avatar-b.mb-3
               .tarjeta-avatar-b__img
@@ -122,7 +122,7 @@
           .col
             p.mb-0 Para concluir, uniendo los puntos anteriores se insiste sobre los planes de mejora, los canales de comunicación, conocimientos que los aprendices, empresarios y demás partes interesadas de las organizaciones implementen en cada una, va generar como resultado la sostenibilidad de la empresa, es decir maximiza la probabilidad de permanecer en el mercado ya que va a estar actualizada sobre las demandas de sus consumidores.
     .row.justify-content-center
-      .col-12
+      .col-12(data-aos="fade-right")
         .p-3
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img

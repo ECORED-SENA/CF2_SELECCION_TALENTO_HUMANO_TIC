@@ -218,7 +218,7 @@
       .col-lg-5
         figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema2/img10.png', style="width: 650px")
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         .row.bg-color7.rounded.mb-4
           .col-12
             .p-2
@@ -267,7 +267,7 @@
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
         p.mb-4 Las organizaciones requieren un verdadero equipo de trabajo, donde la sinergia positiva y habilidades y competencias sean valoradas en su justa proporción, por lo tanto, es necesario identificar los elementos clave que hacen equipos eficaces. Los siguientes son elementos claves de los equipos de trabajo:
-        .row.m-3.justify-content-center
+        .row.m-3.justify-content-center(data-aos="fade-left")
           .row.bg-color1.rounded.mb-4
             .col-12
               .p-2
@@ -521,7 +521,7 @@
             figure.img-position1
               img(src='@/assets/curso/tema2/img20.png', style="width: 400px").m-auto
     .row
-      .col-12.bg-color6
+      .col-12.bg-color6(data-aos="fade-left")
         .p-4
           p.mb-0 El adoptar de manera consciente estos cinco acuerdos es otra buena táctica para ser parte de los buenos negociadores o conciliadores dentro de los equipos de trabajo y una herramienta esencial para los líderes de equipos.
 

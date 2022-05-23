@@ -8,7 +8,7 @@
         span(style="color: #fff") 1
       h1 Manejo de la comunicación e información
     .row.mb-5.align-items-center
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade")
         .p-3.bg-color1
           p.mb-0 La comunicación en la humanidad es la base del relacionamiento y acercamiento que ayuda a la interacción entre las personas, y por ende a la comunión y entendimiento y con base en ella se pueden satisfacer las necesidades de las personas. Es importante conocer cómo se hace este contacto con los clientes, porque en cualquier organización se deben generar canales tanto para sus clientes internos como externos.
       .col-lg-7
@@ -24,7 +24,7 @@
     #t_1_1
     .titulo-segundo.color-acento-contenido
       h2 1.1 Comunicación oral
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-auto.d-none.d-lg-block.mb-3
         figure.mb-3
           img(src='@/assets/curso/tema1/img2.svg', style="width: 50px")
@@ -98,7 +98,7 @@
           .col-lg-5.mb-4.mb-lg-0
             p Todas las personas pueden expresar de forma verbal, con frases ideales para toda ocasión sus ideas, pero cabe resaltar que esto va acompañado de los gestos o expresiones corporales que pueden reforzar su comunicado o emitir otro mensaje.Diversos autores y especialistas de la comunicación utilizan la fórmula 55/38/7, dados los resultados hallados después de sendas investigaciones acerca del peso que tienen los gestos, posturas y movimientos en la comunicación interpersonal.
           .col-lg-7
-            .row
+            .row(data-aos="fade-left")
               .col-sm-6.col-lg-4.mb-4.mb-lg-0
                 .tarjeta--boton.color-primario.p-4.h-100
                   .row.justify-content-center.mb-3
@@ -174,7 +174,7 @@
           img(src='@/assets/curso/tema1/img11.svg', style="width: 750px").m-auto
     p.mb-5 En la comunicación escrita se hace más difícil expresar una idea, como también se hace más lento el proceso de realimentación o respuesta. Relacionemos sus ventajas y desventajas:
     .row.mb-5.bg-color3
-      .col-12.px-5
+      .col-12.px-5(data-aos="fade")
         .row.my-5
           .col-lg-6.linea1
             .p-4
@@ -556,7 +556,7 @@
       .col-lg-5.mb-4.mb-lg-0
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img25.svg', style="width: 450px").m-auto
-    .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5 
+    .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5(data-aos="fade-right")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-2.mb-4.mb-lg-0
           figure
@@ -578,7 +578,7 @@
           img(src='@/assets/curso/tema1/img14.png', style="width: 450px").m-auto
       .col-lg-8
         p.mb-4 #[b Beneficios del ISO 27001]
-        .row
+        .row(data-aos="fade-left")
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
@@ -677,7 +677,7 @@
           img(src='@/assets/curso/tema1/img24.svg', style="width: 50px").m-auto
       .col
         p.mb-0 #[span.txt-deco1 Nota:] a nivel general, en el entorno presencial y virtual, ya sea de nuestra vida en sociedad, laboral o familiar, se debe hacer alusión a que nuestro comportamiento tiene consecuencias y aunque existen reglas que rigen, de cada aprendiz o ser humano depende ponerlas en práctica y ser parte del cambio, debido a que por un mal hábito se puede perder un empleo a nivel presencial o aún más grave, por el mal uso de las redes se pueden perder vidas a nivel virtual.
-    .tarjeta.color-acento-terciario.p-4.p-md-5
+    .tarjeta.color-acento-terciario.p-4.p-md-5(data-aos="fade-left")
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
           img(src="@/assets/curso/tema1/img37.svg")

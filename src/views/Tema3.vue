@@ -89,7 +89,7 @@
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema3/img2.png', style="width: 600px")
     p.mb-5 La configuración de los SAP se hace atendiendo las características de la empresa o negocio, sin embargo, los módulos que más comúnmente se utilizan son los siguientes:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-9.col-md-4.col-lg-3
         .p-2
           figure
@@ -116,7 +116,7 @@
       h2 3.4 Otros sistemas y medios electrónicos
     p.mb-4 Día a día siguen apareciendo más aplicaciones y canales ágiles de comunicación con los clientes, entre ellos tenemos:
     .row
-      .col-lg-5
+      .col-lg-5.mb-4.mb-lg-0
         figure(data-aos="fade-up-right")
           img(src='@/assets/curso/tema3/img3.png', style="width: 600px")
       .col-lg-7
@@ -126,8 +126,7 @@
           p.text-small(numero="3" titulo="Chatbots") Se refiere a un #[i software] que mantiene en tiempo real una conversación con el cliente o usuario, puede funcionar en el portal web, o en plataformas como Facebook o Messenger. La mayor ventaja es que se puede mantener la conversación automática 24/7 (las 24 horas de los 7 días de la semana) y aunque se asemeja al formulario es mucho más amigable que eso, porque da respuesta inmediata y hace que la experiencia sea mucho más agradable.
         .row
           .col-12
-            
-              .row.align-items-center
+              .row.align-items-center(data-aos="fade-right")
                 .col-10.bg-color12
                   .p-2
                     p.mb-0.me-3 #[b Nota]: cabe aclarar que cada organización dependiendo su actividad en el mercado y su deseo de mejorar la calidad de relacionamiento con los clientes le hará adoptar los medios y sistemas mencionados o como también crear o mirar más alternativas.

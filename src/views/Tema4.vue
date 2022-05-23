@@ -134,7 +134,7 @@
           .col
             p.mb-0 Ahora bien, es importante entender que para el proceso de recepción, seguimiento y respuestas de las PQRSF, se debe estandarizar un procedimiento para que el funcionario que hace la gestión tenga las pautas y herramientas para dar una respuesta oportuna y en los mejores términos para garantizar su cumplimiento.
     p.text-center.mb-5 Las bases iniciales para dar respuesta a una PQRS son:
-    .row.mb-5.align-items-center
+    .row.mb-5.align-items-center(data-aos="fade-left")
       .col-lg-6.mb-4.mb-lg-0
         .row.bg-color1.rounded.mb-4
           .col-12
