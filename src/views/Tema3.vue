@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span(style="color: #fff") 3
       h1 Uso de sistemas de información y de relacionamiento con los clientes
-    .row.mb-4.align-items-center
+    .row.mb-4.align-items-center(data-aos="fade-left")
       .col-lg-5.mb-4.mb-lg-0
         figure.d-none.d-lg-block.mb-3
           img(src='@/assets/curso/tema1/img6.svg', style="width: 70px")
@@ -15,11 +15,11 @@
       .col-lg-7
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
-            figure(data-aos="fade-up")
+            figure
               img(src='@/assets/curso/tema3/img1.svg', style="width: 250px").m-auto
           .col-lg-7
             p Lo anterior obliga a los empresarios y negociadores a subirse al bus del uso de las TIC para publicitar, promover, atender con suma rapidez y diligencia a los clientes, realizar transacciones, hacer seguimiento de las operaciones comerciales, resolver las posibles contingencias y medir la satisfacción de los clientes a través de sistemas de información y relacionamiento con los clientes.
-    .row.bg-color10
+    .row.bg-color20
       .col-12.p-5
         .row.align-items-center(data-aos="fade-up-left")
           .col-lg-6
@@ -39,11 +39,11 @@
               img(src='@/assets/curso/tema1/img6.svg', style="width: 70px")
           .col
             p.mb-0 El CRM es un conjunto de estrategias de negocio que integra acciones de marketing soportadas en diversos canales de comunicación, ideadas con el fin de construir relaciones duraderas con los clientes, centradas en conocer, comprender y satisfacer sus necesidades para lograr la conquista, afiliación, retención y fidelización de los clientes. Dentro de los propósitos del CRM encontramos los siguientes:
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-up-right")
           .col-lg-6
             .titulo-sexto.color-acento-botones
               p.mb-0 #[b Figura 3]. Propósitos del CRM
-            figure.mb-5(data-aos="fade-up-right")
+            figure.mb-5
               img(src='@/assets/curso/tema3/img2.svg', style="width: 800px").m-auto
         figure
           .video
@@ -52,17 +52,17 @@
     #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2  ERP (#[i Enterprise Resource Planning])
-    .row.align-items-start.mb-5
+    .row.align-items-start.mb-5(data-aos="fade-right")
       .col-auto.d-none.d-lg-block
         figure.mt-2
           img(src='@/assets/curso/tema3/img3.svg', style="width: 70px")
       .col
         p.mb-0 Los sistemas de planeación de recursos empresariales integran la información de las áreas de una empresa, es decir, se comparte información de todas y cada una de las áreas o procesos a partir de un único sistema informático, lo cual facilita la interacción entre los colaboradores, agiliza las comunicaciones, facilita la operatividad y se convierte en herramienta fundamental para la toma de decisiones de los directivos. A continuación, se pueden observar las áreas de integración.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up-right")
       .col-lg-6
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 4].  Áreas de integración del ERP
-        figure.mb-5(data-aos="fade-up-right")
+        figure.mb-5
           img(src='@/assets/curso/tema3/img4.svg', style="width: 800px").m-auto
     Separador
     #t_3_3
@@ -89,27 +89,54 @@
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema3/img2.png', style="width: 600px")
     p.mb-5 La configuración de los SAP se hace atendiendo las características de la empresa o negocio, sin embargo, los módulos que más comúnmente se utilizan son los siguientes:
-    .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-9.col-md-4.col-lg-3
-        .p-2
-          figure
-            img(src='@/assets/curso/tema3/img5.svg', style="width: 300px")
-      .col-9.col-md-4.col-lg-3
-        .p-2
-          figure
-            img(src='@/assets/curso/tema3/img6.svg', style="width: 300px")
-      .col-9.col-md-4.col-lg-3
-        .p-2
-          figure
-            img(src='@/assets/curso/tema3/img7.svg', style="width: 300px")
-      .col-9.col-md-4.col-lg-3
-        .p-2
-          figure
-            img(src='@/assets/curso/tema3/img8.svg', style="width: 300px")
-      .col-9.col-md-4.col-lg-3
-        .p-2
-          figure
-            img(src='@/assets/curso/tema3/img9.svg', style="width: 300px")
+    .row.mb-5(data-aos="fade-left")
+      .col-12
+        .row.justify-content-center
+          .col-sm-5.col-lg-3.col-xl.m-1
+            .row.bg-color21
+              .col-12
+                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+            .row.align-items-center.bg-color22
+              .col
+                p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
+              .col-auto
+                img(src='@/assets/curso/tema3/img5.svg', style="width: 60px")
+          .col-sm-5.col-lg-3.col-xl.m-1
+            .row.bg-color21
+              .col-12
+                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+            .row.align-items-center.bg-color22
+              .col
+                p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
+              .col-auto
+                img(src='@/assets/curso/tema3/img6.svg', style="width: 60px")
+          .col-sm-5.col-lg-3.col-xl.m-1
+            .row.bg-color21
+              .col-12
+                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+            .row.align-items-center.bg-color22
+              .col
+                p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
+              .col-auto
+                img(src='@/assets/curso/tema3/img7.svg', style="width: 60px")
+          .col-sm-5.col-lg-3.col-xl.m-1
+            .row.bg-color21
+              .col-12
+                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+            .row.align-items-center.bg-color22
+              .col
+                p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
+              .col-auto
+                img(src='@/assets/curso/tema3/img8.svg', style="width: 60px")
+          .col-sm-5.col-lg-3.col-xl.m-1
+            .row.bg-color21
+              .col-12
+                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+            .row.align-items-center.bg-color22
+              .col
+                p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
+              .col-auto
+                img(src='@/assets/curso/tema3/img9.svg', style="width: 60px")
     Separador
     #t_3_4
     .titulo-segundo.color-acento-contenido
@@ -117,7 +144,7 @@
     p.mb-4 Día a día siguen apareciendo más aplicaciones y canales ágiles de comunicación con los clientes, entre ellos tenemos:
     .row
       .col-lg-5.mb-4.mb-lg-0
-        figure(data-aos="fade-up-right")
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img3.png', style="width: 600px")
       .col-lg-7
         LineaTiempoD.color-secundario.mb-4

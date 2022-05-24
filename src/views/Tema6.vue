@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span(style="color: #fff") 6
       h1 Consolidación de propuesta de mejora
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-up-left")
       .col-lg-7.mb-4.mb-lg-0
         .row
           .col-auto.d-none.d-lg-block
@@ -16,7 +16,7 @@
           .col
             p.mb-0 Una vez el cliente expresa su nivel de satisfacción, la organización procede a tomar los resultados para exponerlos con las áreas encargadas o estratégicas de la empresa para generar ideas que se consolidan y se convierten en propuestas de mejora continua que generan un crecimiento en la empresa ya que impactan en el cumplimiento de los requisitos exigidos por el cliente, generando la fidelización del consumidor y aumento de los mismos.
       .col-lg-5
-        figure(data-aos="fade-up-left")
+        figure
           img(src='@/assets/curso/tema6/img2.svg', style="width: 650px").m-auto
     Separador
     #t_6_1
@@ -28,21 +28,21 @@
           img(src='@/assets/curso/tema6/img1.png', style="width: 650px").m-auto
       .col-lg-7
         p.mb-4 Para generar propuestas de mejora, es importante identificar la situación actual de lo que queremos mejorar es decir se debe hacer uso de la información recibida por los clientes revisando punto por punto e identificando cuales son positivos y negativos, por ejemplo:
-        .row(data-aos="fade-right")
-          .col-12
-            .tarjeta-avatar-b.mb-3
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema6/img3.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--rosa
-                .p-4
-                  p.mb-0.mt-lg-3 Satisfacción de 50 clientes en la puntualidad de la entrega = pésimo
-          .col-12
+        .row.justify-content-center(data-aos="fade-right")
+          .col-10
             .tarjeta-avatar-b.mb-3
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema6/img4.svg' alt='AvatarTop')
               .tarjeta.tarjeta--rosa
                 .p-4
-                  p.mb-0.mt-lg-3 Atención de los funcionarios que hicieron la entrega a los 50 clientes = Excelente
+                  p.mb-0.txt-deco1 Satisfacción de 50 clientes en la puntualidad de la entrega = pésimo
+          .col-10
+            .tarjeta-avatar-b.mb-3
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema6/img3.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--rosa
+                .p-4
+                  p.mb-0.txt-deco1 Atención de los funcionarios que hicieron la entrega a los 50 clientes = Excelente
         p Como podemos ver en el ejemplo, los clientes están insatisfechos con la puntualidad en la entrega del producto, pero no con la atención a la hora de la entrega.
     Separador
     #t_6_2
@@ -60,13 +60,35 @@
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema6/img2.png', style="width: 650px").m-auto
     p.text-center.mb-5 #[span.txt-deco1 Ejemplo: Satisfacción de 50 clientes en la puntualidad de la entrega = pésimo]
-    .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-lg-5
-        figure
-          img(src='@/assets/curso/tema6/img3.png', style="width: 650px").m-auto
-      .col-lg-5
-        figure
-          img(src='@/assets/curso/tema6/img4.png', style="width: 650px").m-auto
+    .row.justify-content-center.mb-5(data-aos="fade-up")
+      .col-10.col-lg-5.mb-4.mb-lg-0
+        .bg-color23
+          .row
+            .col-12.p-5
+              .tarjeta
+                .col-12
+                  br
+                  br
+                .col-12
+                  br
+                  br
+                .col-12
+                  p.text-center.text-white.txt-deco5 #[b Acción correctiva]
+                  p.text-white Llamar a los clientes y ofrecer disculpas por la demora y brindarles un valor agregado ya sea descuento en la próxima entrega o una carta formal expresando que la situación no volverá a pasar y que es muy importante para la empresa como cliente.
+      .col-10.col-lg-5.mb-4.mb-lg-0
+        .bg-color24
+          .row
+            .col-12.p-5
+              .row
+                .col-12
+                  br
+                  br
+                .col-12
+                  br
+                  br
+                .col-12
+                  p.text-center.text-white.txt-deco5 #[b Acción de mejora]
+                  p.text-white Crear las rutas según horarios de entrega sectorizados para que esto no suceda teniendo en cuenta tráfico y según capacidad establecer con el cliente el tiempo o día para la encomienda.
     .row.align-items-center.mb-5
       .col-lg-5
         figure(data-aos="fade-up-right")
@@ -122,14 +144,13 @@
           .col
             p.mb-0 Para concluir, uniendo los puntos anteriores se insiste sobre los planes de mejora, los canales de comunicación, conocimientos que los aprendices, empresarios y demás partes interesadas de las organizaciones implementen en cada una, va generar como resultado la sostenibilidad de la empresa, es decir maximiza la probabilidad de permanecer en el mercado ya que va a estar actualizada sobre las demandas de sus consumidores.
     .row.justify-content-center
-      .col-12(data-aos="fade-right")
-        .p-3
-          .tarjeta-avatar-b
-            .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema6/img6.svg' alt='AvatarTop')
-            .tarjeta.tarjeta--rosa
-              .p-4
-                p.mt-4 Estimado aprendiz, para finalizar la formación de este componente formativo, tenga en cuenta que una empresa competitiva es aquella que logra tener una comunicación eficiente y eficaz con el entorno que la rodea ya que de ese diálogo continuo nacen oportunidades de crecimiento y estrategias de sostenibilidad.
+      .col-11(data-aos="fade-right")
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema6/img6.svg' style="width: 90px")
+          .tarjeta.tarjeta--rosa
+            .p-4
+              p.mb-0 Estimado aprendiz, para finalizar la formación de este componente formativo, tenga en cuenta que una empresa competitiva es aquella que logra tener una comunicación eficiente y eficaz con el entorno que la rodea ya que de ese diálogo continuo nacen oportunidades de crecimiento y estrategias de sostenibilidad.
 
 </template>
 

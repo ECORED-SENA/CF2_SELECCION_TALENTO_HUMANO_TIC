@@ -145,7 +145,7 @@
                       br
                       br
                     .col-12
-                      p.text-center.text-white #[b Identificación]
+                      p.text-center.text-white.txt-deco5 #[b Identificación]
                       p.text-white Si fuera él y estuviera en sus circunstancias sentiría o haría lo mismo
           .col-10.col-lg-4.mb-4.mb-lg-0
             .bg-color18
@@ -159,7 +159,7 @@
                       br
                       br
                     .col-12
-                      p.text-center.text-white #[b Incorporación y repercusión]
+                      p.text-center.text-white.txt-deco5 #[b Incorporación y repercusión]
                       p.text-white ¿Qué sentimientos de la otra persona despiertan emociones en mí?
           .col-10.col-lg-4.mb-4.mb-lg-0
             .bg-color19
@@ -173,7 +173,7 @@
                       br
                       br
                     .col-12
-                      p.text-center.text-white #[b Separación o distanciamiento]
+                      p.text-center.text-white.txt-deco5 #[b Separación o distanciamiento]
                       p.text-white Una vez conocida la situación, se debe dar paso a la razón.
                       p.text-white Determinar el límite de involucramiento para evitar afectación personal.
     h4.txt-deco1.text-center.mb-5 Para que la empatía se manifieste implica dos tareas:
@@ -225,9 +225,9 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img(src='@/assets/curso/tema2/img14.svg', style="width: 100px").m-auto
+                    img(src='@/assets/curso/tema2/img14.svg', style="width: 80px").m-auto
                 .col
-                  p.txt-deco1 Equipos para resolver problemas
+                  p.txt-deco1.mb-0 Equipos para resolver problemas
                   p.mb-0 Grupos de 5 a 12 empleados de un departamento que se reunen durante unas horas por semana y analizan as formas de mejorar la calidad, eficiencia y ambiente de trabajo.
         .row.bg-color7.rounded.mb-4
           .col-12
@@ -235,9 +235,9 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img(src='@/assets/curso/tema2/img15.svg', style="width: 100px").m-auto
+                    img(src='@/assets/curso/tema2/img15.svg', style="width: 80px").m-auto
                 .col
-                  p.txt-deco1 Equipos autodirigidos
+                  p.txt-deco1.mb-0 Equipos autodirigidos
                   p.mb-0 Grupos de 10 a 15 personas que tomas las responsabilidades de sus supervisores originales.
         .row.bg-color7.rounded.mb-4
           .col-12
@@ -245,9 +245,9 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img(src='@/assets/curso/tema2/img16.svg', style="width: 100px").m-auto
+                    img(src='@/assets/curso/tema2/img16.svg', style="width: 80px").m-auto
                 .col
-                  p.txt-deco1 Equipos transfuncionales
+                  p.txt-deco1.mb-0 Equipos transfuncionales
                   p.mb-0 Empleados del mismo nivel jerárquico provenientes de áreas de trabajo distintas y que se reunen para llevar a cabo una tarea.
         .row.bg-color7.rounded.mb-2
           .col-12
@@ -255,9 +255,9 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img(src='@/assets/curso/tema2/img17.svg', style="width: 100px").m-auto
+                    img(src='@/assets/curso/tema2/img17.svg', style="width: 80px").m-auto
                 .col
-                  p.txt-deco1 Equipos virtuales
+                  p.txt-deco1.mb-0 Equipos virtuales
                   p.mb-0 Los que usan tecnología de cómputo para reunir a miembros dispersos físicamente, con el objeto de alcanzar una meta común.
         .row
           .col-12.bg-color8
@@ -339,7 +339,7 @@
         .row.justify-content-center
           .col-lg-10
             SlyderF(columnas="col-lg-6 col-xl-4")
-              .tarjeta.color-acento-4.p-1
+              .tarjeta.color-acento-4.p-3
                 .row.justify-content-center.mb-3.mt-4
                   .col-8.mb-3
                     img(src='@/assets/curso/tema2/img24.svg' alt='AvatarTop' style="width: 110px").m-auto
@@ -347,39 +347,36 @@
                 p.text-center.mb-0 #[b Conocimiento]: saber de uno mismo.
                 p.text-center.mb-0 #[b Control]: saber manejar las propias emociones, sin que ninguna se desborde.
                 p.text-center.mb-0 Equilibrio entre tranquilidad y acción.
-              .tarjeta.color-acento-4.p-1
+              .tarjeta.color-acento-4.p-3
                 .row.justify-content-center.mb-3.mt-4
                   .col-8.mb-3
                     img(src='@/assets/curso/tema2/img25.svg' alt='AvatarTop' style="width: 110px").m-auto
                 h4.text-center Cortesía
                 p.text-center.mb-0 #[b Respeto]: uso de las buenas maneras.
                 p.text-center.mb-0 Amabilidad, disposición de servicio, ayuda, asesoría.
-                br
-                br.mb-2
-              .tarjeta.color-acento-4.p-1
+              .tarjeta.color-acento-4.p-3
                 .row.justify-content-center.mb-3.mt-4
                   .col-8.mb-3
                     img(src='@/assets/curso/tema2/img26.svg' alt='AvatarTop' style="width: 110px").m-auto
                 h4.text-center Escucha
                 p.text-center.mb-0 #[b Atenta y respetuosa]: esperar que el cliente diga todo lo que tiene por decir sin interrumpir.
                 p.text-center.mb-0 Preguntar lo necesario para aclarar o confirmar el mensaje.
-                br.mb-3
-              .tarjeta.color-acento-4.p-1
+              .tarjeta.color-acento-4.p-3
                 .row.justify-content-center.mb-3.mt-4
                   .col-8.mb-3
                     img(src='@/assets/curso/tema2/img27.svg' alt='AvatarTop' style="width: 110px").m-auto
                 h4.text-center Conocimiento
                 p.text-center.mb-0 Del producto, del proceso o procedimiento mantenimiento y garantía.
-                p.text-center.mb-4 Información de uso, manipulación, conservación y recomendaciones.
-              .tarjeta.color-acento-4.p-1
+                p.text-center.mb-0 Información de uso, manipulación, conservación y recomendaciones.
+              .tarjeta.color-acento-4.p-3
                 .row.justify-content-center.mb-3.mt-4
                   .col-8.mb-3
                     img(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop' style="width: 110px").m-auto
                 h4.text-center Empatía
                 p.text-center.mb-0 Pensar en los intereses y deseos del otro.
                 p.text-center.mb-0 Comprender la posición del cliente.
-                p.text-center.mb-4 Hacerle entender que se le está escuchando.
-              .tarjeta.color-acento-4.p-1
+                p.text-center.mb-0 Hacerle entender que se le está escuchando.
+              .tarjeta.color-acento-4.p-3
                 .row.justify-content-center.mb-3.mt-4
                   .col-8.mb-3
                     img(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop' style="width: 110px").m-auto
@@ -388,7 +385,6 @@
                 p.text-center.mb-0 Buscar nuevas opciones.
                 p.text-center.mb-0 Combinar alternativas.
                 p.text-center.mb-0 Buscar soluciones diferentes.
-                br.mb-3
     Separador
     #t_2_4
     .titulo-segundo.color-acento-contenido
@@ -422,7 +418,7 @@
     .row.bg-color10
       .col-12.p-5
         p.mb-5 El conflicto tiene aspectos positivos y negativos, veamos algunos de ellos:
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-up-left")
           .col-lg-10
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Tabla 2]. Aspectos de los conflictos
@@ -488,7 +484,7 @@
                     |
                     p.mb-0 Observación neutral.
         p.mb-5 Las creencias, la cultura y las circunstancias que rodean la experiencia de vida de cada uno, va enrutando su forma de actuar y de tomar decisiones, esta es la premisa de la cual parte el autor Mexicano Miguel Ángel Ruíz, en su obra “Los cuatro acuerdos” que luego complementa con “El quinto acuerdo”, que se podría sintetizar así:
-        .row.align-items-center
+        .row.align-items-center(data-aos="fade-right")
           .col-lg-9.mb-4.mb-lg-0
             .tarjeta.tarjeta--rosa.p-5
               LineaTiempoC.color-acento-contenido(text-small)

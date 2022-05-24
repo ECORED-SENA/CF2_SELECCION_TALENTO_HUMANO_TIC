@@ -7,14 +7,14 @@
       .titulo-principal__numero
         span(style="color: #fff") 1
       h1 Manejo de la comunicación e información
-    .row.mb-5.align-items-center
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade")
+    .row.mb-5.align-items-center(data-aos="fade")
+      .col-lg-5.mb-4.mb-lg-0
         .p-3.bg-color1
           p.mb-0 La comunicación en la humanidad es la base del relacionamiento y acercamiento que ayuda a la interacción entre las personas, y por ende a la comunión y entendimiento y con base en ella se pueden satisfacer las necesidades de las personas. Es importante conocer cómo se hace este contacto con los clientes, porque en cualquier organización se deben generar canales tanto para sus clientes internos como externos.
       .col-lg-7
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
-            figure(data-aos="fade-up-left")
+            figure
               img(src='@/assets/curso/tema1/img1.svg', style="width: 250px").m-auto
           .col-lg-7
             figure.d-none.d-lg-block.mb-3
@@ -94,11 +94,11 @@
         #t_1_2
         .titulo-segundo.color-acento-contenido
           h2 1.2 Comunicación gestual
-        .row.mb-4
+        .row.mb-4(data-aos="fade-left")
           .col-lg-5.mb-4.mb-lg-0
             p Todas las personas pueden expresar de forma verbal, con frases ideales para toda ocasión sus ideas, pero cabe resaltar que esto va acompañado de los gestos o expresiones corporales que pueden reforzar su comunicado o emitir otro mensaje.Diversos autores y especialistas de la comunicación utilizan la fórmula 55/38/7, dados los resultados hallados después de sendas investigaciones acerca del peso que tienen los gestos, posturas y movimientos en la comunicación interpersonal.
           .col-lg-7
-            .row(data-aos="fade-left")
+            .row
               .col-sm-6.col-lg-4.mb-4.mb-lg-0
                 .tarjeta--boton.color-primario.p-4.h-100
                   .row.justify-content-center.mb-3
@@ -158,7 +158,7 @@
     #t_1_3
     .titulo-segundo.color-acento-contenido
       h2 1.3 Comunicación escrita
-    .row
+    .row(data-aos="fade-up")
       .col-lg-7.mb-4.mb-lg-0
         p Gracias a este tipo de contacto, podríamos decir que conocemos la mayoría de nuestra historia, debido a que nuestros antepasados se preocuparon por dejar plasmado nuestro origen y transformación de la civilización a través del tiempo.
         .bloque-texto-c.color-secundario.px-4.pt-4.mb-3
@@ -166,7 +166,7 @@
           p.mb-4 Mirando la historia donde el mensaje es el objeto central entre emisor y receptor, antes de la aparición de la escritura (aproximadamente 3.200 a.C.), el ser humano solo se comunicaba a partir de mensajes simples expresados a través del habla, pero las distancias de las personas hicieron evidente la necesidad de plasmar la palabra y dotarla de un carácter permanente en un soporte físico, que al día hoy se convirtió más en soporte digital.
           span.d-flex.justify-content-end.pe-5 (Machado Mateos, 2020)
       .col-lg-5.mb-4.mb-lg-0
-        figure(data-aos="fade-up")
+        figure
           img(src='@/assets/curso/tema1/img2.png', style="width: 450px").m-auto
       .col-12.mt-4
         p.text-center.mb-5 Tenga presente que en toda forma de comunicación siguen siendo protagonistas los elementos de la comunicación:
@@ -238,7 +238,7 @@
       .col-12.p-5
         .row.align-items-center.mb-5
           .col-lg-7.mb-4.mb-lg-0
-            .tarjeta.tarjeta--azul.p-4
+            .tarjeta.tarjeta--azul.p-3.p-lg-4
               SlyderA(tipo="b")
                 .row.align-items-center.justify-content-center
                   .col-lg-7.mb-4.mb-md-0
@@ -355,7 +355,7 @@
         .titulo-segundo.color-acento-contenido
           h2 1.5 Comunicación telemática
         p Este tipo de comunicación se utiliza tanto para venta de productos, como también para mejorar la calidad del servicio al cliente por medio de un acompañamiento personalizado que ha servido para resolver dudas e inquietudes de los consumidores en las organizaciones.
-    .row.mb-4.justify-content-center
+    .row.mb-4.justify-content-center(data-aos="fade-left")
       .col-10.col-lg-4.col-xl-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -380,7 +380,7 @@
               h3.text-white Blogs
               p.text-white Espacio donde se publican contenidos, imágenes, experiencias para compartir.
               p.text-white FAQ (#[i frequently asked questions]) o #[i Chatbots], preguntas frecuentes con sus respectivas respuestas
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="fade-right")
       .col-10.col-lg-4.col-xl-4.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
@@ -429,7 +429,7 @@
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img11.png', style="width: 450px").m-auto
       .col-lg-7
-        .tarjeta.tarjeta--azul.p-4
+        .tarjeta.tarjeta--azul.p-3.p-lg-4
           SlyderA(tipo="b")
             .row.align-items-center.justify-content-center
               .col-lg-7.mb-4.mb-md-0
@@ -460,7 +460,7 @@
     .titulo-segundo.color-acento-contenido
       h2 1.7 Flujo de la comunicación organizacional
     p.mb-5 Dentro de las organizaciones, la comunicación no solo se tipifica según el código, como ya se mencionó: verbal, gestual, escrita; se identifican otros tipos de comunicación, como se ilustra en la siguiente tabla:
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 1]. Tipos de comunicación
@@ -543,12 +543,12 @@
           img(src='@/assets/curso/tema1/img13.png', style="width: 450px").m-auto
       .col-lg-7
         LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="Localización") El archivo debe permitir rápida y fácilmente la ubicación del documento.
-          p.text-small(numero="2" titulo="Radicación") Dejar registro de entrada o salida de documentos.
-          p.text-small(numero="3" titulo="Visualización") El documento debe ser visible para facilitar su búsqueda.
-          p.text-small(numero="4" titulo="Perioricidad") Archivar periódicamente, evitar su acumulación.
-          p.text-small(numero="5" titulo="Clasificación y ordenación") Identificar lo útil y relevante y ordenarlo según tipo de archivo (numérico, cronológico, por asuntos, por áreas o procesos).
-          p.text-small(numero="6" titulo="Depuración") Desechar documentos inútiles y evitar multiplicidad de copias o expedientes.
+          p.text-small.mb-0(numero="1" titulo="Localización") El archivo debe permitir rápida y fácilmente la ubicación del documento.
+          p.text-small.mb-0(numero="2" titulo="Radicación") Dejar registro de entrada o salida de documentos.
+          p.text-small.mb-0(numero="3" titulo="Visualización") El documento debe ser visible para facilitar su búsqueda.
+          p.text-small.mb-0(numero="4" titulo="Perioricidad") Archivar periódicamente, evitar su acumulación.
+          p.text-small.mb-0(numero="5" titulo="Clasificación y ordenación") Identificar lo útil y relevante y ordenarlo según tipo de archivo (numérico, cronológico, por asuntos, por áreas o procesos).
+          p.text-small.mb-0(numero="6" titulo="Depuración") Desechar documentos inútiles y evitar multiplicidad de copias o expedientes.
     .row.mt-4.mt-lg-5.mb-5
       .col-lg-7.mb-4.mb-lg-0
         p Cuando el documento ya hace parte de un archivo, puede ser requerido para #[span-txt-deco1 consulta], en ese caso el mismo procedimiento interno debe especificar en qué casos y qué personas pueden tener acceso a dicha información, para evitar pérdidas de información y que el colaborador incurra en faltas a la confidencialidad y seguridad de la información.
@@ -583,70 +583,70 @@
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img27.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0 Reducir las posibilidades de infracciones de seguridad en su entorno informativo. 
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img28.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0 Un método estructurado para abordar los requisitos de compilación.
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img29.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0.mt-2 Confidencialidad de la información.
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img30.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0 Cumplimiento de requisitos reconocidos internacionalmente.
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img31.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0 Minimización de riesgos IT, posible daño y costo consecuente.
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img32.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0 Detección sistemática de vulnerabilidades.
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img33.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0 Ventaja competitiva debido al estándar reconocido.
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img34.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0.mt-0.mt-lg-2 Reducción de costos.
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img35.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0 Aumentar la confianza con respecto a los socios clientes y al publico.
           .col-lg-6.mb-2
             .tarjeta-avatar-b.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img36.svg' alt='AvatarTop')
-              .tarjeta.color-acento-botones
+              .tarjeta.color-acento-botones1
                 .p-4
                   p.mb-0.mt-0.mt-lg-4 Control de riesgo IT.
     .Separador

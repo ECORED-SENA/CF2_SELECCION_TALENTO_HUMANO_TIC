@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span(style="color: #fff") 4
       h1 Peticiones Quejas Reclamos Sugerencias y Felicitaciones
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-7.mb-4.mb-lg-0
         .row.align-items-start
           .col-auto.d-none.d-lg-block
@@ -16,17 +16,17 @@
           .col
             p.mb-0 Las PQRSF son sin duda una herramienta de mejora, porque ayuda a la organización a retroalimentarse en la calidad y gestión del servicio que le está brindando al cliente, debido a que es un canal directo que tiene con el consumidor que expresa por medio de este mecanismo sus peticiones, quejas, reclamos, sugerencias y felicitaciones, según corresponda con su experiencia con el producto o servicio adquirido.
       .col-lg-5
-        figure(data-aos="fade-up-left")
+        figure
           img(src='@/assets/curso/tema4/img1.png', style="width: 450px").m-auto
     p.mb-5.txt-deco1.text-center Conozcamos cada una de ellas:
-    .tarjeta.tarjeta--azul.p-5.mb-5
+    .tarjeta.tarjeta--azul.p-3.p-lg-5.mb-5(data-aos="fade-up-right")
       SlyderA(tipo="b")
         .row.align-items-center.justify-content-center
-          .col-lg-7.mb-4.mb-md-0
+          .col-12.col-lg-7.mb-4.mb-lg-0
             P.txt-deco1.mb-3 Petición
             p.mb-0 Son todas aquellas que se presentan ante cualquier institución o empresa ya sea publica o privada de forma cordial por situaciones individuales o comunes, con el propósito de hacer una solicitud.
             p.mb-0 Ejemplo: la petición de un descuento en la matrícula de estudiantes, pago de liquidación laboral, vacaciones, mayor seguridad en las calles, entre otras.
-          .col-lg-4
+          .col-12.col-lg-4
             figure.mt-4
               img(src='@/assets/curso/tema4/img2.png', style="width: 650px").m-auto
         .row.align-items-center.justify-content-center
@@ -185,7 +185,7 @@
         figure(data-aos="fade-up-left")
           img(src='@/assets/curso/tema4/img10.png', style="width: 650px")
     p.mb-5 Una vez se cuenta con esta base mínima, se procede a crear un área de recepción y seguimiento que en ocasiones se delega, acorde al tamaño de la organización, para que se manejen los siguientes puntos:
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
         .tarjeta.tarjeta--rosa.p-3.p-lg-3
           LineaTiempoC.color-acento-contenido(text-small)
