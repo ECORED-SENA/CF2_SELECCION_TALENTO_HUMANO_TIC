@@ -95,7 +95,7 @@
           .col-sm-5.col-lg-3.col-xl.m-1
             .row.bg-color21
               .col-12
-                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+                p.mb-0.text-center.py-5 Ventas, distribuciones y servicio al cliente.
             .row.align-items-center.bg-color22
               .col
                 p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
@@ -104,37 +104,37 @@
           .col-sm-5.col-lg-3.col-xl.m-1
             .row.bg-color21
               .col-12
-                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+                p.mb-0.text-center.py-5 Stocks, facturas y todo lo relacionado con el producto de venta.
             .row.align-items-center.bg-color22
               .col
-                p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
+                p.mb-0.text-center.text-small #[b MM (materials management)]
               .col-auto
                 img(src='@/assets/curso/tema3/img6.svg', style="width: 60px")
           .col-sm-5.col-lg-3.col-xl.m-1
             .row.bg-color21
               .col-12
-                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+                p.mb-0.text-center.py-5 Todo lo relacionado con la fabricación.
             .row.align-items-center.bg-color22
               .col
-                p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
+                p.mb-0.text-center.text-small #[b PP (production planning)]
               .col-auto
                 img(src='@/assets/curso/tema3/img7.svg', style="width: 60px")
           .col-sm-5.col-lg-3.col-xl.m-1
             .row.bg-color21
               .col-12
-                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+                p.mb-0.text-center.py-5 Gestión del recurso humano.
             .row.align-items-center.bg-color22
               .col
-                p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
+                p.mb-0.text-center.text-small #[b HR (human resoruces)]
               .col-auto
                 img(src='@/assets/curso/tema3/img8.svg', style="width: 60px")
           .col-sm-5.col-lg-3.col-xl.m-1
             .row.bg-color21
               .col-12
-                p.mb-0.text-center.text-small.py-5 Ventas, distribuciones y servicio al cliente
+                p.mb-0.text-center.py-5 Gestión de costos y beneficios.
             .row.align-items-center.bg-color22
               .col
-                p.mb-0.text-center.text-small #[b SD (sales and dsitribution)]
+                p.mb-0.text-center.text-small #[b CO (costes)]
               .col-auto
                 img(src='@/assets/curso/tema3/img9.svg', style="width: 60px")
     Separador

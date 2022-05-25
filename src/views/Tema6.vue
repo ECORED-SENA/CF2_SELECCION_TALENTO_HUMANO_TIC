@@ -34,16 +34,16 @@
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema6/img4.svg' alt='AvatarTop')
               .tarjeta.tarjeta--rosa
-                .p-4
-                  p.mb-0.txt-deco1 Satisfacción de 50 clientes en la puntualidad de la entrega = pésimo
+                .p-3
+                  p.mb-0.ms-4.txt-deco1 Satisfacción de 50 clientes en la puntualidad de la entrega = pésimo
           .col-10
             .tarjeta-avatar-b.mb-3
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema6/img3.svg' alt='AvatarTop')
               .tarjeta.tarjeta--rosa
-                .p-4
-                  p.mb-0.txt-deco1 Atención de los funcionarios que hicieron la entrega a los 50 clientes = Excelente
-        p Como podemos ver en el ejemplo, los clientes están insatisfechos con la puntualidad en la entrega del producto, pero no con la atención a la hora de la entrega.
+                .p-3
+                  p.mb-0.ms-4.txt-deco1 Atención de los funcionarios que hicieron la entrega a los 50 clientes = Excelente
+        p.mb-0 Como podemos ver en el ejemplo, los clientes están insatisfechos con la puntualidad en la entrega del producto, pero no con la atención a la hora de la entrega.
     Separador
     #t_6_2
     .titulo-segundo.color-acento-contenido
