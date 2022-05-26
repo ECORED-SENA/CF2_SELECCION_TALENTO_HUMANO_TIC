@@ -103,7 +103,7 @@
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p #[b Anexo]. Formato para peticiones, quejas, reclamos y sugerencias (pqrs)
+                    p #[b Anexo]. Formato para peticiones, quejas, reclamos, sugerencias y felicitaciones (pqrsf)
               .row
                 .col-12.bg-color6
                   .p-4
@@ -141,7 +141,7 @@
               img(src='@/assets/curso/tema4/img7.svg', style="width: 70px")
           .col
             p.mb-0 Ahora bien, es importante entender que para el proceso de recepción, seguimiento y respuestas de las PQRSF, se debe estandarizar un procedimiento para que el funcionario que hace la gestión tenga las pautas y herramientas para dar una respuesta oportuna y en los mejores términos para garantizar su cumplimiento.
-    p.text-center.mb-5 Las bases iniciales para dar respuesta a una PQRS son:
+    p.text-center.mb-5 Las bases iniciales para dar respuesta a una PQRSF son:
     .row.mb-5.align-items-center(data-aos="fade-left")
       .col-lg-6.mb-4.mb-lg-0
         .row.bg-color1.rounded.mb-4
@@ -204,7 +204,7 @@
                     figure
                       img(src='@/assets/curso/tema4/img13.svg', style="width: 80px").m-auto
                   .col-lg-8
-                    p.mb-0 #[b 1er. acuerdo]: recepción de la PQRS.
+                    p.mb-0 #[b 1er. acuerdo]: recepción de la PQRSF.
             .row.justify-content-center(titulo="2do. acuerdo")
               .col-11
                 .row.align-items-center
@@ -265,7 +265,7 @@
           .col-12.bg-color6
             .p-3
               p.mb-0 #[span.txt-deco1 Nota:] tenga en cuenta que estos son lineamientos mínimos de un instructivo que le sirven de guía para hacer la gestión de forma adecuada y cada organización implementa diferentes formas y herramientas para aplicarlo.
-        p.mb-4 Lo importante es entender que sea cual sea la empresa privada o pública y sin distinción de actividad económica, debe responder por los derechos que tienen sus clientes y partes interesadas cuando hacen una solicitud por medio de una PQRS. En el siguiente formato se puede evidenciar la forma de generar seguimiento a una PQRSF.
+        p.mb-4 Lo importante es entender que sea cual sea la empresa privada o pública y sin distinción de actividad económica, debe responder por los derechos que tienen sus clientes y partes interesadas cuando hacen una solicitud por medio de una PQRSF. En el siguiente formato se puede evidenciar la forma de generar seguimiento a una PQRSF.
         a.anexo(:href="obtenerLink('/downloads/Anexo7.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")

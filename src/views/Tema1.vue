@@ -29,7 +29,7 @@
         figure.mb-3
           img(src='@/assets/curso/tema1/img2.svg', style="width: 50px")
       .col
-        p.mb-0 Este tipo expresión comprende el mensaje entre las personas usando el habla, teniendo en cuenta el manejo de emociones, uso adecuado de las palabras y escuchando, obteniendo así buenas relaciones con las personas de su entorno.
+        p.mb-0 Este tipo de expresión comprende el mensaje entre las personas usando el habla, teniendo en cuenta el manejo de emociones, uso adecuado de las palabras y escuchando, obteniendo así buenas relaciones con las personas de su entorno.
       .col-12
         p La oratoria o comunicación oral es la que se verbaliza a través de la palabra, sin embargo, eso no quiere decir que solo las palabras importan, tal como ilustra el autor norteamericano Bert Decker en su obra #[span.txt-deco1 “El Arte de la comunicación. Cómo lograr un impacto interpersonal”] para lo cual se requiere del manejo de nueve habilidades así:
     .row.justify-content-center.mb-5
@@ -81,7 +81,7 @@
         p El mismo autor ha utilizado esta frase en los entrenamientos de gerentes:
         .bloque-texto-c.color-secundario.px-4.pt-4.mb-3
           i.fas.fa-quote-right
-          p.mb-4 Acelera la organización con rapidez para cambiar, rapidez para generar ahorros de costos, rapidez para generar ingresos y rapidez para brindar satisfacción al cliente. Toda mejora cuando mejora la comunicación.
+          p.mb-4 Acelera la organización con rapidez para cambiar, rapidez para generar ahorros de costos, rapidez para generar ingresos y rapidez para brindar satisfacción al cliente. Todo mejora cuando mejora la comunicación.
           span.d-flex.justify-content-end.pe-5 CITATION Dec21 \l 3082 (Decker, 2021)
         p En las organizaciones se ve este tipo de comunicación con el cliente en los modelos tradicionales en venta directa como tiendas físicas, centros de información y demás.
         p Nota: en este tipo de comunicación con el cliente se debe tener en cuenta el equilibrio entre cada palabra, es decir, #[span.txt-deco1 sin agresividad – no agredir, ni pasividad – evitar, para tener una conversación eficiente].
@@ -685,7 +685,7 @@
         .col-md.col-lg-6
           .titulo-segundo.color-acento-contenido
             h3.text-white Etiqueta y netiqueta
-          p.text-white.mb-4 Conociendo qué es la etiqueta y netiqueta, el siguiente presenta algunas de las normas para aplicar según su entorno; cabe recalcar que estas son algunas y cada espacio virtual o presencial tiene muchas más que debemos acatar y no porque lo soliciten, si no porque a la persona le nace de forma espontánea y va en él o ella.
+          p.text-white.mb-4 Conociendo qué es la etiqueta y netiqueta, el siguiente PDF presenta algunas de las normas para aplicar según su entorno; cabe recalcar que estas son algunas y cada espacio virtual o presencial tiene muchas más que debemos acatar y no porque lo soliciten, si no porque a la persona le nace de forma espontánea y va en él o ella.
           a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo4.pdf')" target="_blank" type="application/pdf")
             span(style="color: #000 !important") Descargar
             i.fas.fa-file-download(style="color: #000 !important")

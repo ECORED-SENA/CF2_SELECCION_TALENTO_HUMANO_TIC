@@ -296,8 +296,7 @@ export default {
       link: '',
     },
     {
-      referencia:
-        'Decker, B. (26 de 11 de 2021). <em>Linkedin</em>. Obtenido de. ',
+      referencia: 'Decker, B. (26 de 11 de 2021). ',
       link: 'https://www.linkedin.com/in/bertdecker/',
     },
     {
@@ -306,8 +305,7 @@ export default {
       link: '',
     },
     {
-      referencia:
-        'iebschool. (1 de 2020). <em>iebschool.com</em>. Obtenido de. ',
+      referencia: 'iebschool. (1 de 2020). ',
       link:
         'https://www.iebschool.com/blog/que-es-para-que-sirve-sap-management/',
     },
@@ -332,8 +330,7 @@ export default {
       link: '',
     },
     {
-      referencia:
-        'Pymesycalidad2.0. (2014). <em>www.pymesycalidad20.com</em>. Obtenido de Pymes y calidad: ',
+      referencia: 'Pymesycalidad2.0. (2014). ',
       link:
         'https://www.pymesycalidad20.com/4-contexto-de-la-orgaizacion-mapa-iso90012015.html',
     },
@@ -348,8 +345,8 @@ export default {
       link: '',
     },
     {
-      referencia: 'SENA. (2021). <em>www.sena.edu.co</em>. Obtenido de. ',
-      link: 'www.sena.edu.co',
+      referencia: 'SENA. (2021). ',
+      link: 'https://sena.edu.co/es-co/Paginas/default.aspx',
     },
     {
       referencia:
@@ -466,7 +463,7 @@ export default {
     },
     {
       texto:
-        'Departamento Nacional de Planeación. (2019). Política Nacional para la Transformación Digital e Inteligencia Artivicial.',
+        'Departamento Nacional de Planeación. (2019). Política Nacional para la Transformación Digital e Inteligencia Artificial.',
       tipo: 'PDF',
       descarga: '/downloads/Anexo9.pdf',
     },

@@ -98,7 +98,7 @@
                 p.mb-0.text-center.py-5 Ventas, distribuciones y servicio al cliente.
             .row.align-items-center.bg-color22
               .col
-                p.mb-0.text-center.text-small #[b SD (#[i sales and dsitribution])]
+                p.mb-0.text-center.text-small #[b SD (#[i sales and distribution])]
               .col-auto
                 img(src='@/assets/curso/tema3/img5.svg', style="width: 60px")
           .col-sm-5.col-lg-3.col-xl.m-1
@@ -125,7 +125,7 @@
                 p.mb-0.text-center.py-5 Gestión del recurso humano.
             .row.align-items-center.bg-color22
               .col
-                p.mb-0.text-center.text-small #[b HR (#[i human resoruces])]
+                p.mb-0.text-center.text-small #[b HR (#[i human resources])]
               .col-auto
                 img(src='@/assets/curso/tema3/img8.svg', style="width: 60px")
           .col-sm-5.col-lg-3.col-xl.m-1

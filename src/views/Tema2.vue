@@ -228,7 +228,7 @@
                     img(src='@/assets/curso/tema2/img14.svg', style="width: 80px").m-auto
                 .col
                   p.txt-deco1.mb-0 Equipos para resolver problemas
-                  p.mb-0 Grupos de 5 a 12 empleados de un departamento que se reunen durante unas horas por semana y analizan as formas de mejorar la calidad, eficiencia y ambiente de trabajo.
+                  p.mb-0 Grupos de 5 a 12 empleados de un departamento que se reunen durante unas horas por semana y analizan las formas de mejorar la calidad, eficiencia y ambiente de trabajo.
         .row.bg-color7.rounded.mb-4
           .col-12
             .p-2
