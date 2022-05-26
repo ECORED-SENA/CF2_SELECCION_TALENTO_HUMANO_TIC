@@ -320,6 +320,7 @@
           img(src='@/assets/curso/tema2/img22.svg', style="width: 1000px").m-auto
     .row.bg-color9.mb-5
       .col-12.p-5
+        p Para ubicar cuál debe ser el aporte individual en cada etapa del equipo, conozcamos cuáles son las habilidades requeridas en las fases evolutivas de los equipos:
         SlyderB(:datos="datosSlyder")
     Separador
     #t_2_3
@@ -389,6 +390,7 @@
     #t_2_4
     .titulo-segundo.color-acento-contenido
       h2 2.4 Solución de conflictos
+    p.mb-4 El conflicto se puede concebir como:
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
         figure(data-aos="fade-up-right")
@@ -531,7 +533,7 @@ export default {
       {
         titulo: '<h4 style="color:#7F4FC7 !important">Orientación</h3>',
         texto:
-          'Es el primer momento de formación del grupo. Los miembros no se conocen, acuden al equipo desorientados, son conocer exactamente los objetivos, que se espera de ellos, las funciones. En esta etapa se favorece el, conocimiento y objetivos del propio grupo.',
+          'Es el primer momento de formación del grupo. Los miembros no se conocen, acuden al equipo desorientados, sin conocer exactamente los objetivos, que se espera de ellos, las funciones. En esta etapa se favorece el, conocimiento y objetivos del propio grupo.',
         imagen: require('@/assets/curso/tema2/img12.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

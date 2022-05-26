@@ -52,7 +52,7 @@
               .col-lg-7.mb-4.mb-md-0
                 P.txt-deco1.mb-3 Libreta de calificación del consumidor
                 p Se hace de forma puntual en atributos que la organización quiere resaltar o mejorar dentro de la empresa que considera como valor agregado, como el uso del parqueadero propio, atención personalizada, herramientas tecnológicas, canales de comunicación, atención percibida entre otros aspectos.
-                p Se hace le solicita al cliente una vez ha terminado de hacer su compra para recibir una retroalimentación.
+                p Se le solicita al cliente una vez ha terminado de hacer su compra para recibir una retroalimentación.
               .col-lg-4
                 figure.mt-4
                   img(src='@/assets/curso/tema5/img2.png', style="width: 650px").m-auto

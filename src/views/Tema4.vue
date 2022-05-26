@@ -24,7 +24,7 @@
         .row.align-items-center.justify-content-center
           .col-12.col-lg-7.mb-4.mb-lg-0
             P.txt-deco1.mb-3 Petición
-            p.mb-0 Son todas aquellas que se presentan ante cualquier institución o empresa ya sea publica o privada de forma cordial por situaciones individuales o comunes, con el propósito de hacer una solicitud.
+            p Son todas aquellas que se presentan ante cualquier institución o empresa ya sea publica o privada de forma cordial por situaciones individuales o comunes, con el propósito de hacer una solicitud.
             p.mb-0 Ejemplo: la petición de un descuento en la matrícula de estudiantes, pago de liquidación laboral, vacaciones, mayor seguridad en las calles, entre otras.
           .col-12.col-lg-4
             figure.mt-4
@@ -32,7 +32,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-7.mb-4.mb-md-0
             P.txt-deco1.mb-3 Quejas
-            p.mb-0 Son todas estas manifestaciones que presentan las personas ya sea de forma escrita o verbal ante las entidades publicas o privadas sobre inconformidades sobre la atención recibida de un empleado.
+            p Son todas estas manifestaciones que presentan las personas ya sea de forma escrita o verbal ante las entidades publicas o privadas sobre inconformidades sobre la atención recibida de un empleado.
             p.mb-0 Ejemplo: un funcionario al vender un producto atiende de forma descortés a un cliente y el cliente remite su insatisfacción.
           .col-lg-4
             figure.mt-4
@@ -40,7 +40,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-7.mb-4.mb-md-0
             P.txt-deco1.mb-3 Reclamos
-            p.mb-0 Son todas estas manifestaciones que presentan las personas ya sea de forma escrita o verbal ante las entidades públicas o privadas sobre inconformidades sobre el producto o servicio adquirido que no cumple con las características ofertadas.
+            p Son todas estas manifestaciones que presentan las personas ya sea de forma escrita o verbal ante las entidades públicas o privadas sobre inconformidades sobre el producto o servicio adquirido que no cumple con las características ofertadas.
             p.mb-0 Ejemplo: un cliente compra un alimento y sale con la fecha vencida, o un equipo de sonido con unas características que al usar no tiene y procede hacer el respectivo reclamo a la entidad donde lo compro.
           .col-lg-4
             figure.mt-4
@@ -48,11 +48,19 @@
         .row.align-items-center.justify-content-center
           .col-lg-7.mb-4.mb-md-0
             P.txt-deco1.mb-3 Sugerencia
-            p.mb-0 Son todas estas manifestaciones que presentan las personas ya sea de forma escrita o verbal ante las entidades públicas o privadas para mejoras sobre la atención, producto o servicio que pueden hacer y no tienen.
+            p Son todas estas manifestaciones que presentan las personas ya sea de forma escrita o verbal ante las entidades públicas o privadas para mejoras sobre la atención, producto o servicio que pueden hacer y no tienen.
             p.mb-0 Ejemplo: un cliente de una institución capacitadora tiene la necesidad de recibir un curso que no oferta la entidad y hace la sugerencia de crearlo.
           .col-lg-4
             figure.mt-4
               img(src='@/assets/curso/tema4/img5.png', style="width: 650px").m-auto
+        .row.align-items-center.justify-content-center
+          .col-lg-7.mb-4.mb-md-0
+            P.txt-deco1.mb-3 Felicitaciones
+            p Son todas estas manifestaciones que presentan las personas ya sea de forma escrita o verbal ante las entidades públicas o privadas para expresar su satisfacción ante la atención, producto o servicio que recibieron.
+            p.mb-0 Ejemplo: un cliente de una institución capacitadora felicita a la entidad por sus formadores y la calidad en la educación.
+          .col-lg-4
+            figure.mt-4
+              img(src='@/assets/curso/tema4/img13.png', style="width: 650px").m-auto
     Separador
     #t_4_1
     .titulo-segundo.color-acento-contenido

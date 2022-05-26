@@ -468,8 +468,7 @@ export default {
       texto:
         'Departamento Nacional de Planeación. (2019). Política Nacional para la Transformación Digital e Inteligencia Artivicial.',
       tipo: 'PDF',
-      link:
-        'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3975.pdf',
+      descarga: '/downloads/Anexo9.pdf',
     },
     {
       texto:
@@ -579,7 +578,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Andrea Botello',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

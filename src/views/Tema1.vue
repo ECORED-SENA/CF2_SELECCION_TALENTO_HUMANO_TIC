@@ -96,7 +96,7 @@
           h2 1.2 Comunicación gestual
         .row.mb-4(data-aos="fade-left")
           .col-lg-5.mb-4.mb-lg-0
-            p Todas las personas pueden expresar de forma verbal, con frases ideales para toda ocasión sus ideas, pero cabe resaltar que esto va acompañado de los gestos o expresiones corporales que pueden reforzar su comunicado o emitir otro mensaje.Diversos autores y especialistas de la comunicación utilizan la fórmula 55/38/7, dados los resultados hallados después de sendas investigaciones acerca del peso que tienen los gestos, posturas y movimientos en la comunicación interpersonal.
+            p Todas las personas pueden expresar de forma verbal, con frases ideales para toda ocasión sus ideas, pero cabe resaltar que esto va acompañado de los gestos o expresiones corporales que pueden reforzar su comunicado o emitir otro mensaje. Diversos autores y especialistas de la comunicación utilizan la fórmula 55/38/7, dados los resultados hallados después de sendas investigaciones acerca del peso que tienen los gestos, posturas y movimientos en la comunicación interpersonal.
           .col-lg-7
             .row
               .col-sm-6.col-lg-4.mb-4.mb-lg-0
@@ -128,7 +128,7 @@
               figure
                 img(src='@/assets/curso/tema1/img6.svg', style="width: 50px").m-auto
             .col
-              p Todas las personas pueden expresar de forma verbal, con frases ideales para toda ocasión sus ideas, pero cabe resaltar que esto va acompañado de los gestos o expresiones corporales que pueden reforzar su comunicado o emitir otro mensaje. Diversos autores y especialistas de la comunicación utilizan la fórmula 55/38/7, dados los resultados hallados después de sendas investigaciones acerca del peso que tienen los gestos, posturas y movimientos en la comunicación interpersonal.
+              p De aquí la importancia de resaltar la comunicación gestual (o no verbal), porque es la que primero llega al receptor, así como en segundo lugar llega la comunicación paraverbal, es decir el “tono” y la proyección que se hace con la voz, expresiones que dicen mucho más que el mensaje que se manifiesta con palabras.
         p.mb-4 #[b Las tres disciplinas de la comunicación no verbal son (Machado Mateos, 2020):]
         .row.align-items-center.justify-content-center
           .col-lg-5.mb-4.mb-lg-0
@@ -172,7 +172,7 @@
         p.text-center.mb-5 Tenga presente que en toda forma de comunicación siguen siendo protagonistas los elementos de la comunicación:
         figure.mb-4(data-aos="fade-up-left")
           img(src='@/assets/curso/tema1/img11.svg', style="width: 750px").m-auto
-    p.mb-5 En la comunicación escrita se hace más difícil expresar una idea, como también se hace más lento el proceso de realimentación o respuesta. Relacionemos sus ventajas y desventajas:
+    p.mb-5 En la comunicación escrita se hace más difícil expresar una idea, como también se hace más lento el proceso de retroalimentación o respuesta. Relacionemos sus ventajas y desventajas:
     .row.mb-5.bg-color3
       .col-12.px-5(data-aos="fade")
         .row.my-5
@@ -234,6 +234,7 @@
     .row
       .col-12
         p Este tipo de comunicación se utiliza tanto para venta de productos, como también para mejorar la calidad del servicio al cliente por medio de un acompañamiento personalizado que ha servido para resolver dudas e inquietudes de los consumidores en las organizaciones.
+        p Es la forma más ágil y sencilla para establecer comunicación entre empresa y clientes, dadas las facilidades prestadas por las diversas tecnologías de comunicación telefónica (analógica, digital, central telefónica, IP, móvil, videollamada, manos libres), que al igual que otros tipos de comunicación tiene sus ventajas y desventajas, las cuales son:
     .row.bg-color4
       .col-12.p-5
         .row.align-items-center.mb-5
@@ -546,7 +547,7 @@
           p.text-small.mb-0(numero="1" titulo="Localización") El archivo debe permitir rápida y fácilmente la ubicación del documento.
           p.text-small.mb-0(numero="2" titulo="Radicación") Dejar registro de entrada o salida de documentos.
           p.text-small.mb-0(numero="3" titulo="Visualización") El documento debe ser visible para facilitar su búsqueda.
-          p.text-small.mb-0(numero="4" titulo="Perioricidad") Archivar periódicamente, evitar su acumulación.
+          p.text-small.mb-0(numero="4" titulo="periodicidad") Archivar periódicamente, evitar su acumulación.
           p.text-small.mb-0(numero="5" titulo="Clasificación y ordenación") Identificar lo útil y relevante y ordenarlo según tipo de archivo (numérico, cronológico, por asuntos, por áreas o procesos).
           p.text-small.mb-0(numero="6" titulo="Depuración") Desechar documentos inútiles y evitar multiplicidad de copias o expedientes.
     .row.mt-4.mt-lg-5.mb-5
@@ -571,7 +572,7 @@
         figure.d-none.d-lg-block
           img(src='@/assets/curso/tema1/img24.svg', style="width: 50px").m-auto
       .col
-        p.mb-0 Para la salvaguarda y seguridad de la información, las organizaciones cuentan con la Norma ISO 27001 referente mundial para implementar el Sistema de Gestión de Seguridad de la Información, con la cual se genera confianza tanto con el personal interno como con todas las partes interesadas del sector externo. Esta normativa permite que los datos suministrados sean confidenciales, íntegros, disponibles y legales, con el fin de estar protegidos frente a los riesgos que se puedan presentar. Veamos los beneficios de su implementación:
+        p.mb-0 Para la salvaguarda y #[b seguridad de la información], las organizaciones cuentan con la Norma ISO 27001 referente mundial para implementar el Sistema de Gestión de Seguridad de la Información, con la cual se genera confianza tanto con el personal interno como con todas las partes interesadas del sector externo. Esta normativa permite que los datos suministrados sean confidenciales, íntegros, disponibles y legales, con el fin de estar protegidos frente a los riesgos que se puedan presentar. Veamos los beneficios de su implementación:
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
         figure(data-aos="fade-up-right")
